@@ -1,0 +1,23 @@
+<component *name="Logo" (render)="Log">
+    <prop *name="size"></prop>
+    <render>
+        <div class="logo-grid" style="width: {{size}}; height: {{size}}">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </render>
+</component>

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1370px;
+}
+
+.layer-1 {
+    width: 1152px;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer-2 {
+    height: 100%;
+    width: 100%;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 65px 400px 1fr;
+    gap: 10px;
+}

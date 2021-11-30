@@ -1,0 +1,3775 @@
+[
+    {
+        "ans": 2,
+        "ask": "QN=1 (6836) A CPU may have multiple execution units, so that can carry out multiple instructions in the same time is called: \r",
+        "chs": [
+            "a. Pipeline\r",
+            "b. Superscalar\r",
+            "c. Multicore\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=2 (6843) The four main structural elements of a computer system are: \r",
+        "chs": [
+            "a. Processor, Registers, I/O Modules, Main Memory\r",
+            "b. Processor, Registers, Main Memory, System Bus\r",
+            "c. Processor, Main Memory, I/O Modules, System Bus\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=3 (6849) Which of the following instructions should be allowed in user mode? \r",
+        "chs": [
+            "a. Disable all interrupts\r",
+            "b. Read the time-of-day clock\r",
+            "c. Set the time-of-day clock\r",
+            "d. Change the memory map"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=4 (6858) As one proceeds down the memory hierarchy(phân cấp bộ nhớ) (from inboard memory to offline storage), which of the following conditions is correct? \r",
+        "chs": [
+            "a. Increasing cost per bit\r",
+            "b. Decreasing capacity\r",
+            "c. Increasing access time\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=5 (6863) Information that must be saved prior to the processor transferring control to the interrupt handler routine includes: \r",
+        "chs": [
+            "a. PSW\r",
+            "b. PSW and PC\r",
+            "c. PSW and Contents of processor registers\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=6 (6871) What is not a main function of an operating system? \r",
+        "chs": [
+            "a. Provide the users with an extended (virtual) machine\r",
+            "b. Manage the I/O devices\r",
+            "c. Provide user interfaces\r",
+            "d. Support virtual memory"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=7 (6883) What is the main characteristic of real-time operating system? \r",
+        "chs": [
+            "a. Multiple CPU\r",
+            "b. Time-sharing\r",
+            "c. Time is key parameter\r",
+            "d. Many I/O devices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=8 (6898) What is not correct about system calls? \r",
+        "chs": [
+            "a. A system call allows a user process to assess and execute operating system functions inside the kernel.\r",
+            "b. User programs use system calls to invoke operating system services\r",
+            "c. In terms of performance, using system calls is better than using procedure calls\r",
+            "d. Every system call involves overhead due to context switch"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=9 (6903) Which of the following is a task of process management of OS? \r",
+        "chs": [
+            "a. Process creation and deletion.\r",
+            "b. Process suspension and resume\r",
+            "c. Provision of mechanisms for process synchronization, Interprocess communication, Prevent or avoid deadlock\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=10 (6909) A simple structuring model for monolithic system includes: \r",
+        "chs": [
+            "a. A main program that invokes the requested service procedure\r",
+            "b. A set of service procedures that carry out the system calls\r",
+            "c. A set of utility procedures that help the service procedures\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=11 (6925) What is the \"sequential processes\" concept? \r",
+        "chs": [
+            "a. There are both many CPU and many PC\r",
+            "b. All process is executed in concurrency\r",
+            "c. No concurrency inside a process; everything happens sequentially\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=12 (6941) Which of the following process state transitions is correct, when the external event for which a process was waiting happens? \r",
+        "chs": [
+            "a. Running -> Blocked (waiting)\r",
+            "b. Running -> ready\r",
+            "c. Blocked (waiting) -> ready\r",
+            "d. Ready -> running"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=13 (6948) How many percent of the CPU time is wasted, when a computer system has enough room to hold two program and these programs are idle waiting for I/O half the time? \r",
+        "chs": [
+            "a. 50%\r",
+            "b. 25%\r",
+            "c. 75%\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=14 (6956) How many ways is Thread implemented? \r",
+        "chs": [
+            "a. 1\r",
+            "b. 2\r",
+            "c. 3\r",
+            "d. None of the other choice"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=15 (6963) Critical Region (Section) concept used in interprocess communication is: \r",
+        "chs": [
+            "a. A part of the program where the shared memory is accessed\r",
+            "b. A part of shared data\r",
+            "c. A part of shared memory\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=16 (6969) Which of the following statements is a hardware solution to the critical region problem? \r",
+        "chs": [
+            "a. TSL\r",
+            "b. Shared memory\r",
+            "c. Semaphore\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=17 (6978) Which of the following is true about Atomic action on semaphores? \r",
+        "chs": [
+            "a. Checking the value\r",
+            "b. Changing the value\r",
+            "c. Possibly going to sleep\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=18 (6987) Which of the following statements is true about hardware solution to the critical region problem? \r",
+        "chs": [
+            "a. Disable Interrupts\r",
+            "b. Monitors\r",
+            "c. Semaphore\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=19 (6991) What is the purpose of CPU scheduling algorithms? \r",
+        "chs": [
+            "a. Pick one of the ready processes to run next\r",
+            "b. Put to sleep and wake up processes in an efficient manner\r",
+            "c. Allocate memory to the processes in a fair and efficient way\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=20 (6999) The first-come, first-served (FCFS) algorithm is fine for most ____ systems \r",
+        "chs": [
+            "a. Interactive\r",
+            "b. Batch\r",
+            "c. Real time\r",
+            "d. Multiuser"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=21 (7007) Five batch jobs A through E, arrive at a computer center at almost the same time. They have estimated running times of 8, 6, 2, 10, and 4 minutes. Determine the average waiting time for SJF (Shortest job first) scheduling. Ignore process switching overhead. \r",
+        "chs": [
+            "a. 14 minutes\r",
+            "b. 8 minutes\r",
+            "c. 6 minutes\r",
+            "d. 18.8 minutes"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=22 (7015) Assume jobs A-D arrive in quick succession in the READY queue. Using round robin scheduling (quantum=4), the turnaround time for job D is ____.\rArrival time: 0 1 2 3\rJob: A B C D\rCPU cycle: 8 4 9 5 \r",
+        "chs": [
+            "a. 7\r",
+            "b. 20\r",
+            "c. 22\r",
+            "d. 24"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=23 (7021) Which of following is true about cache in the memory hierarchy? \r",
+        "chs": [
+            "a. Small amount of fast expensive memory\r",
+            "b. Some medium-speed medium price\r",
+            "c. Gigabytes of slow cheap memory\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=24 (7029) Which of the following is a method to keep track of memory usages? \r",
+        "chs": [
+            "a. Memory Management with Bit Maps\r",
+            "b. Memory Management with Linked Lists\r",
+            "c. Both Memory Management with Bit Maps and Memory Management with Linked Lists\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=26 (7042) One of the most important innovations of demand paging was that it made ____ feasible \r",
+        "chs": [
+            "a. Memory demand\r",
+            "b. Virtual demand\r",
+            "c. Virtual paging\r",
+            "d. Virtual memory."
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=27 (7048) Which of these statements about the Inverted Page Table are true? \r",
+        "chs": [
+            "a. An entry contains the pair (process, virtual page) mapped into the corresponding page frame\r",
+            "b. An entry contains the pair (process, offset) mapped into the corresponding page frame\r",
+            "c. An entry contains the pair (segment, virtual page) mapped into the corresponding page frame\r",
+            "d. An entry contains the pair (segment, offset) mapped into the corresponding page frame"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=28 (7057) If there are 64 pages and the page size is 2048 words, what is the length of logical address? \r",
+        "chs": [
+            "a. 14 bits\r",
+            "b. 15 bits\r",
+            "c. 16 bits\r",
+            "d. 17 bits"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=29 (7065) A system with 32 bit virtual address. If the page size is 4 KB and each table entry occupies 4 bytes, what is the size of the page table? \r",
+        "chs": [
+            "a. 1 MB\r",
+            "b. 2 MB\r",
+            "c. 4 MB\r",
+            "d. 8 MB"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=30 (7072) Which of the following statements is incorrect about Translation Look-aside Buffer (TLB)? \r",
+        "chs": [
+            "a. A TLB is sometimes known as an associative memory\r",
+            "b. Each entry of a TLB contains the information about one page, including the virtual page number and the corresponding page frame\r",
+            "c. A TLB miss implies a disk operation will follow\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=31 (7080) Working set model is used for: \r",
+        "chs": [
+            "a. Finding the minimum number of frames necessary for a job so that jobs can be run without \"thrashing\"\r",
+            "b. Finding the average number of frames a job will need to run smoothly\r",
+            "c. Determining whether page replacement is needed\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=32 (7086) Which is not true about the method of backing store: \"Paging to a static swap area\"? \r",
+        "chs": [
+            "a. The swap area on the disk is as large as the process virtual address space\r",
+            "b. Calculating the address in swap area requires knowing only where the process' paging area begins\r",
+            "c. Requires a disk map in memory\r",
+            "d. A page that is in memory always have shadow copy on disk"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=33 (7092) Which of the following statements about segmentation is false? \r",
+        "chs": [
+            "a. There are several linear address spaces\r",
+            "b. The total address space can be more than the size of physical memory\r",
+            "c. Sharing of procedures between different users can be facilitated\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=34 (7406) A ____ is a group of related records that contains information to be used by specific application programs to generate reports. \r",
+        "chs": [
+            "a. Field\r",
+            "b. Record group\r",
+            "c. File\r",
+            "d. Directory"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=35 (7413) File Structure can be: \r",
+        "chs": [
+            "a. Byte sequence\r",
+            "b. Record sequence\r",
+            "c. Tree\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=36 (7421) ____ is a specialized WRITE command for existing data files that allows for adding records to end of the file. \r",
+        "chs": [
+            "a. APPEND\r",
+            "b. UPDATE\r",
+            "c. REWRITE\r",
+            "d. MODIFY"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=37 (7428) Which are allocation methods of disk blocks for files? \r",
+        "chs": [
+            "a. Contiguous allocation\r",
+            "b. Linked allocation\r",
+            "c. Indexed allocation\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=38 (7437) Disk can be divided up into one or more partitions. The first block of every partition is called: \r",
+        "chs": [
+            "a. Free block\r",
+            "b. MBR\r",
+            "c. Boot block\r",
+            "d. Super block"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=39 (7442) The Linking technique that allows the file to appear in more than one directory are: \r",
+        "chs": [
+            "a. Hard link\r",
+            "b. Symbolic link\r",
+            "c. Both hard link and symbolic link\r",
+            "d. Soft link"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=40 (7449) Which mechanism is implemented by writing to the log file with the purpose of file system management and optimization? \r",
+        "chs": [
+            "a. Journaling File Systems\r",
+            "b. Log-Structured File Systems\r",
+            "c. Virtual File Systems\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=41 (7454) The File Manager writes the volume name and other descriptive information on an easy-to-access place on each unit: ____ of the CD or DVD \r",
+        "chs": [
+            "a. The outermost part\r",
+            "b. The innermost part\r",
+            "c. Immediately following the master file directory\r",
+            "d. Stored at the beginning of the volume"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=42 (7464) Which is the maximum partition size, if the FAT type is FAT-32 and the block size is 4 KB? \r",
+        "chs": [
+            "a. 1 TB\r",
+            "b. 128 MB\r",
+            "c. 256 MB\r",
+            "d. 512 MB"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=43 (7475) The main classes of I/O devices are: \r",
+        "chs": [
+            "a. Stream devices\r",
+            "b. Block devices\r",
+            "c. Character devices\r",
+            "d. Block devices and Character devices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=44 (7485) Which of the following statements about the task of device controller of I/O devices is correct? \r",
+        "chs": [
+            "a. Convert serial bit stream to block of bytes\r",
+            "b. Perform error correction as necessary\r",
+            "c. Make available to main memory\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=45 (7489) Which approach is used in order to CPU communicate with the control registers of the I/O device? \r",
+        "chs": [
+            "a. Separating I/O and memory space\r",
+            "b. Memory-mapped I/O\r",
+            "c. Hybrid: separating I/O and memory space and memory-mapped I/O\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=46 (7495) Which of the following statements is not correct about DMA? \r",
+        "chs": [
+            "a. DMA controller has access to the system bus independent of the CPU\r",
+            "b. DMA helps reduce the number of interrupts (in comparison with interrupt-driven I/O)\r",
+            "c. DMA controller is usually faster than CPU\r",
+            "d. The operating system can only use DMA if the hardware has a DMA controller"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=47 (7502) An interrupt that leaves the machine in well-defined state is called a(n) ______ \r",
+        "chs": [
+            "a. Precise interrupt\r",
+            "b. Imprecise interrupt\r",
+            "c. Required interrupt\r",
+            "d. Disappointed interrupt"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=48 (7507) Which of the following statements is not correct about \"device independence\"? \r",
+        "chs": [
+            "a. Files and devices are accessed in the same way, independent of their physical nature\r",
+            "b. A system has to maintain only one set of system calls for both writing on a file and writing on the console\r",
+            "c. Device independence requires all programmers to deal with different devices directly\r",
+            "d. Device independent interfaces should be given to programmers"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=49 (7514) Which is the right order between the 4 I/O software layers? \r",
+        "chs": [
+            "a. User-level I/O software, Device drivers, Interrupt handlers, Device-independent OS software\r",
+            "b. User-level I/O software, Interrupt handlers, Device drivers, Device-independent OS software\r",
+            "c. Device-independent OS software, user-level I/O software, Device drivers, Interrupt handlers\r",
+            "d. User-level I/O software, Device-independent OS software, Device drivers, Interrupt handlers"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=50 (7523) Each device attached to your computer comes with a special program called a __________ that facilitates the communication between the device and the OS. \r",
+        "chs": [
+            "a. device configurator\r",
+            "b. translator\r",
+            "c. device driver\r",
+            "d. communication utility"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=51 (7528) In a fixed magnetic disk, each circle is called a ____. \r",
+        "chs": [
+            "a. sector\r",
+            "b. block\r",
+            "c. track\r",
+            "d. platter"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=52 (7541) What is a \"stripping\" in RAID? \r",
+        "chs": [
+            "a. Distributing data over multiple drives\r",
+            "b. Take away possessions from someone\r",
+            "c. Get undressed\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=53 (7549) A operation concerning Stable Storage is: \r",
+        "chs": [
+            "a. Stable writes\r",
+            "b. Stable Reads\r",
+            "c. Crash recovery\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=54 (7576) If a system is deadlocked, no processes can \r",
+        "chs": [
+            "a. run\r",
+            "b. release resources\r",
+            "c. be awakened\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=55 (7581) ____ is when each process involved in the impasse is waiting for another to voluntarily release the resource so that at least one will be able to continue on. \r",
+        "chs": [
+            "a. Mutual-exclusion condition\r",
+            "b. Circular-wait condition\r",
+            "c. Hold and wait condition\r",
+            "d. No preemption condition"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=57 (7593) The permanent blocking of a set of processes that compete for system resources is called \r",
+        "chs": [
+            "a. Starvation\r",
+            "b. Deadlock\r",
+            "c. Prioritization\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=59 (7619) Which deadlock condition does \"Request all resources initially\" attack? \r",
+        "chs": [
+            "a. Mutual exclusion\r",
+            "b. Hold and wait\r",
+            "c. No preemption\r",
+            "d. Circular-wait condition"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=60 (7624) What is the correct approach with the \"No preemption condition\" to prevent Deadlock? \r",
+        "chs": [
+            "a. Order resources numerically\r",
+            "b. Request all resources initially\r",
+            "c. Spool everything\r",
+            "d. Take resources away"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=1 (6840) Which of special register contains the Mode Bit (user or kernel)? \r",
+        "chs": [
+            "a. Instruction Register (IR)\r",
+            "b. Program Counter (PC)\r",
+            "c. Program Status Word (PSW)\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=2 (6847) Which of main bus in the IBM PC computer, that can run at 66 MHz and transfer 8 bytes at a time? \r",
+        "chs": [
+            "a. ISA (Industry Standard Architecture)\r",
+            "b. PCI (Peripheral Component Interconnect)\r",
+            "c. ISA and PCI\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=3 (6855) Booting a general purpose computer involves the following steps except \r",
+        "chs": [
+            "a. Execution of a ROM-based POST sequence\r",
+            "b. Loading one or more bootstrap loaders\r",
+            "c. Loading the OS\r",
+            "d. Loading the command interpreter"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=4 (6860) Which of the following statements about Random Access memory (RAM) is correct? \r",
+        "chs": [
+            "a. Is typically faster than cache memory\r",
+            "b. Is volatile\r",
+            "c. Can only be read sequentially\r",
+            "d. Stores all the files on the computer"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=5 (6867) Which of the following statements is incorrect about the CMOS? \r",
+        "chs": [
+            "a. Is volatile\r",
+            "b. To hold the current time and date\r",
+            "c. To contain BIOS\r",
+            "d. To hold the configuration parameters"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=6 (6873) Which is not an example of a resource that is commonly time-multiplexed? \r",
+        "chs": [
+            "a. Network interface\r",
+            "b. CPU\r",
+            "c. Graphics accelerator\r",
+            "d. Main memory"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=7 (6888) A well-known Embedded operating system is: \r",
+        "chs": [
+            "a. TinyOS\r",
+            "b. QNX and VxWork\r",
+            "c. Symbian OS and Palm OS\r",
+            "d. e-COS"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=8 (6899) A(n) _________ is provided to make system calls from some programming languages \r",
+        "chs": [
+            "a. procedure library\r",
+            "b. operator\r",
+            "c. pointer\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=9 (6908) The major operating system services provide mechanisms for secure and efficient are: \r",
+        "chs": [
+            "a. Communication between processes\r",
+            "b. File manipulation\r",
+            "c. Execution of a program, I/O operations performed by it, and detecting and reporting errors caused by it\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=10 (6912) Which of the following is correct about the advantages of layered system? \r",
+        "chs": [
+            "a. Easier to extend\r",
+            "b. Easier to debug from lower to upper layer\r",
+            "c. Easier to extend and Easier to debug from lower to upper layer\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=11 (6931) OS Win32 use system call_____, while OS Unix use system call______ to create a new process \r",
+        "chs": [
+            "a. CreateProcess; fork\r",
+            "b. fork, CreateProcess\r",
+            "c. copy, CreateProcess\r",
+            "d. CreateProcess; copy"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=12 (6944) Which of the following process state transitions is illegal? \r",
+        "chs": [
+            "a. Running -> Blocked (waiting)\r",
+            "b. Running -> ready\r",
+            "c. Blocked (waiting) -> ready\r",
+            "d. Ready -> Blocked (waiting)"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=13 (6951) How many percent is CPU utilization, when a computer system has enough room to hold two program and these programs are idle waiting for I/O half the time? \r",
+        "chs": [
+            "a. 50%\r",
+            "b. 25%\r",
+            "c. 75%"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=14 (6959) An arrival message causes the system to create a new thread to handle this message. This new thread is call______ \r",
+        "chs": [
+            "a. Pop-up\r",
+            "b. Upcall\r",
+            "c. Activator\r",
+            "d. Distributed"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=15 (6966) Which conditions of mutual exclusion does the Lock Variables (Software proposal) violate? \r",
+        "chs": [
+            "a. No two processes simultaneously in critical region\r",
+            "b. No assumptions made about speeds or numbers of CPUs\r",
+            "c. No process running outside its critical region may block another process\r",
+            "d. No process must wait forever to enter its critical region"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=16 (6973) In order to implement mutual exclusion on a critical resource for competing processes, only one program at a time should be allowed: \r",
+        "chs": [
+            "a. In the critical region of the program\r",
+            "b. To perform message passing\r",
+            "c. To exhibit cooperation\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=17 (6984) Semaphores that are initialized to 1 and used for two or more processes to ensure only one can enter its critical section at the same time are called: \r",
+        "chs": [
+            "a. Binary semaphores\r",
+            "b. Integer semaphores\r",
+            "c. Counter semaphores\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=18 (6988) Which cannot be able to solve the race condition? \r",
+        "chs": [
+            "a. TSL\r",
+            "b. Shared memory\r",
+            "c. Semaphore\r",
+            "d. Monitor"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=19 (6994) Which is not a goal of a scheduling algorithm for batch systems? \r",
+        "chs": [
+            "a. CPU utilization\r",
+            "b. Throughput\r",
+            "c. Turnaround time\r",
+            "d. Response time"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=20 (7002) Some systems increase the priority of jobs that have been in the system for an unusually long time to expedite their exit, which is known as ____.? \r",
+        "chs": [
+            "a. Lagging\r",
+            "b. Bumping\r",
+            "c. Aging\r",
+            "d. Accelerated priority"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=21 (7011) Five batch jobs A through E, arrive at a computer center at almost the same time. They have estimated running times of 8, 6, 2, 10, and 4 minutes. Their (externally determined) priorities are 3, 5, 2, 1, and 4, respectively, with 5 being the highest priority. Determine the average turnaround time for priority scheduling. Ignore process switching overhead. \r",
+        "chs": [
+            "a. 6 minutes\r",
+            "b. 12.8 minutes\r",
+            "c. 18.8 minutes\r",
+            "d. 16.8 minutes"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=22 (7017) Assume jobs A-D arrive at almost the same time in the READY queue. Determine the average turnaround time for SJF scheduling. Ignore process switching overhead \r\rJob: A B C D\rCPU cycle: 5 2 6 4 \r",
+        "chs": [
+            "a. 5.5\r",
+            "b. 6.8\r",
+            "c. 9.0\r",
+            "d. 11.1"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=23 (7028) With paging, when is the internal fragmentation possible? \r",
+        "chs": [
+            "a. Page does not fit the frame\r",
+            "b. The last page of the job is less than the maximum page size\r",
+            "c. The virtual memory assigned to the program is less than the physical memory assigned to it\r",
+            "d. Such thing cannot happen"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=24 (7033) Which of these statements about the algorithm \"Next fit\" is true? \r",
+        "chs": [
+            "a. Memory Manager scans along the list of segments until it finds a hole that is big enough.\r",
+            "b. Memory Manager starting searching the list of segments from the place where it left off last time.\r",
+            "c. Memory Manager searches the entire list of segments from beginning to end and take smallest hole that is adequate.\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=25 (7041) Assume the Memory Manager receives a request for a block of 200. When the worst-fit algorithm is used, ____ is the beginning address of the block granted by the Memory Manager.\rBeginning Address Memory Block Size \r4075 105 \r5225 5\r6785 600\r7560 20\r7600 205\r10250 4050 \r",
+        "chs": [
+            "a. 7600\r",
+            "b. 10250\r",
+            "c. 6785\r",
+            "d. 4075"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=26 (7045) When a virtual memory system manages memory in fixed length units, which of the following terms correctly represents its unit? \r",
+        "chs": [
+            "a. Frame\r",
+            "b. Page\r",
+            "c. Block\r",
+            "d. Segment"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=28 (7061) Suppose a virtual address space of 2^32 words and the page size is 2^12 words. If the virtual address is 12345678 in Hexadecimal, what would be the page number in Hexadecimal? \r",
+        "chs": [
+            "a. 123\r",
+            "b. 1234\r",
+            "c. 12345\r",
+            "d. 123456"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=29 (7068) A computer with a 32-bit address uses a two-level page table. Virtual addresses are split into a 10-bit top-level page table field, an 12-bit second-level page table field, and an offset. How large are the pages? \r",
+        "chs": [
+            "a. 4-KB page\r",
+            "b. 2-KB page\r",
+            "c. 1-KB page\r",
+            "d. 512B page"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=30 (7077) The ____ policy is based on the theory that the best page to remove is the one that has been in memory the longest \r",
+        "chs": [
+            "a. NRU\r",
+            "b. LRU\r",
+            "c. FIFO\r",
+            "d. LIFO"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=31 (7081) When there is an excessive amount of page swapping between main memory and secondary storage, the operation becomes inefficient, which is called ____. \r",
+        "chs": [
+            "a. excessive demand paging\r",
+            "b. hot swapping\r",
+            "c. thrashing\r",
+            "d. Over swapping"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=32 (7089) In terms of main memory efficiency the method of \"Backing up pages dynamically\" in comparison with the method of \"Paging to a static swap area\" is \r",
+        "chs": [
+            "a. Better\r",
+            "b. Worse\r",
+            "c. Equal\r",
+            "d. Nearly equal"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=33 (7408) Which of the following is specified to indicate the directory where the file is located? \r",
+        "chs": [
+            "a. Extension\r",
+            "b. Path name\r",
+            "c. Root directory\r",
+            "d. Sub-directory"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=34 (7417) Which of the following file structure is widely used on large mainframe computers? \r",
+        "chs": [
+            "a. Byte sequence\r",
+            "b. Record sequence\r",
+            "c. Ring\r",
+            "d. Tree"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=36 (7430) Which of the following allocation methods the i-nodes use? \r",
+        "chs": [
+            "a. Contiguous allocation\r",
+            "b. Linked allocation\r",
+            "c. Indexed allocation\r",
+            "d. Linked allocation using FAT"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=37 (7438) The disk block in a partition that includes a magic number, the number of blocks in the file system and other key administrative information is called: \r",
+        "chs": [
+            "a. Free block\r",
+            "b. MBR\r",
+            "c. Boot block\r",
+            "d. Superblock"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=38 (7444) Which of the following is correct about symbolic links? \r",
+        "chs": [
+            "a. Symbolic links need not space to store the path name\r",
+            "b. Symbolic links can only point to files on the same machines\r",
+            "c. Symbolic links can point to files in the network\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=39 (7450) Increasing file system performance is implemented by _____ \r",
+        "chs": [
+            "a. Buffer cache\r",
+            "b. Block Read Ahead\r",
+            "c. Defragmenting Disks\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=40 (7456) Which of the following is true about the block size in disk space management \r",
+        "chs": [
+            "a. The larger the block size is the lower the data rate is\r",
+            "b. The larger the block size is the worse the disk space utilization is\r",
+            "c. The larger the block size is lesser the disk space is\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=41 (7477) Which class of I/O devices that disks and tapes belong to? \r",
+        "chs": [
+            "a. Stream devices\r",
+            "b. Block devices\r",
+            "c. Character devices\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=43 (7493) In general, which is the best technique for I/O Data transfer? \r",
+        "chs": [
+            "a. Programmed I/O\r",
+            "b. Interrupt-Driven I/O\r",
+            "c. Direct Memory Access\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=44 (7498) DMA operations require the following information from the processor \r",
+        "chs": [
+            "a. Address of I/O device\r",
+            "b. Starting memory location to read from and write to\r",
+            "c. Number of words to be read or written\r",
+            "d. All of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=45 (7504) What is the table where its entry contains the memory address of Interrupt service routine \r",
+        "chs": [
+            "a. Interrupt vector table\r",
+            "b. Interrupt table\r",
+            "c. Address table\r",
+            "d. Address lines table"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=46 (7510) Imagine that a certain printer can print 400 characters per second and that the time to write a character to the printer's output register is so short it can be ignored. If to run this printer using interrupt-driven I/O and each character printed requires an interrupt that takes 50 µsec all-in to service. How many percent of the CPU does the interrupt overhead cost? \r",
+        "chs": [
+            "a. 2% of the CPU\r",
+            "b. 98% of the CPU\r",
+            "c. 4% of the CPU\r",
+            "d. 96% of the CPU"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=47 (7518) Which of the following I/O software do Device drivers do? \r",
+        "chs": [
+            "a. Converting binary integers to ASCII for printing\r",
+            "b. Writing commands to the device registers\r",
+            "c. Checking to see if the user is permitted to use the device\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "Which is not a component of general structure of device drivers? \r",
+        "chs": [
+            "a. Checking the input parameters to see if they are valid\r",
+            "b. Checking if the device is currently in use\r",
+            "c. Writing command sequence into controller's device registers\r",
+            "d. Checking to see if the user is permitted to use the device"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=49 (7531) Of the three components of access time in a disk, ____ is the longest. \r",
+        "chs": [
+            "a. Seek time\r",
+            "b. Search time\r",
+            "c. Transfer time\r",
+            "d. Delay time"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=50 (7546) Which RAID level duplicates all the disks? \r",
+        "chs": [
+            "a. 1\r",
+            "b. 2\r",
+            "c. 3\r",
+            "d. 4"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=51 (7551) How much cylinder skew is needed for a 7200- RPM (rotate per minute) disk with the track-to-track seek time of 1 msec? The disk has 200 sectors of 512 bytes on each track. \r",
+        "chs": [
+            "a. 24 sectors\r",
+            "b. 12 sectors\r",
+            "c. 36 sectors\r",
+            "d. 18 sectors"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=52 (7560) A computer uses a programmable clock in square-wave mode. If 500 MHz crystal is used, what should be the value of the holding register to achieve a clock resolution of 1 msec (Clock tick)? \r",
+        "chs": [
+            "a. 500,000\r",
+            "b. 50,000\r",
+            "c. 5,000,000\r",
+            "d. 50,000,000"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=53 (7578) What is true about preemptable resources? \r",
+        "chs": [
+            "a. Will cause the process to fail if taken away\r",
+            "b. Can be taken away from a process with no ill effects\r",
+            "c. Can share among processes\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=54 (7583) ____ allows a resource to be held by a process as long as it is needed. \r",
+        "chs": [
+            "a. Mutual-exclusion condition\r",
+            "b. Circular-wait condition\r",
+            "c. Hold and wait condition\r",
+            "d. No preemption condition"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=55 (7590) Assume the following events and actions take place. The following statement____ is true. Event Action\r1 P1 requests and is allocated R1. \r2 P2 requests and is allocated R2.\r3 P3 requests and is allocated R3.\r4 P1 requests R2.\r5 P2 requests R3.\r6 P3 requests R1. \r",
+        "chs": [
+            "a. There is no deadlock\r",
+            "b. Event 4 caused deadlock\r",
+            "c. Event 5 caused deadlock.\r",
+            "d. Event 6 caused deadlock."
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=56 (7596) Which of the following statements does not apply to manual deadlock management? \r",
+        "chs": [
+            "a. Deadlock is relatively infrequent for some system resources\r",
+            "b. OS designers are normally very sensitive to deadlock when designing resource managers\r",
+            "c. Recovery may involves rebooting the system\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=57 (7611) What following resource allocation state is unsafe?\r \r[file:7611.jpg]\r \r",
+        "chs": [
+            "a. Fig. B\r",
+            "b. Fig. C\r",
+            "c. Fig. B and Fig. C\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=59 (7626) The scheme of ____ removes the possibility of a circular wait and therefore guarantees the removal of deadlocks. \r",
+        "chs": [
+            "a. Hierarchical ordering\r",
+            "b. Preemption\r",
+            "c. Saving and restoring job state\r",
+            "d. Requesting all resources before job run"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Movable-head magnetic disks, such as the computer hard drive, have ____ read/write head(s).\r",
+        "chs": [
+            "A) zero\r",
+            "B) one\r",
+            "C) two\r",
+            "D) four"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "he data-transfer rate for an optical disc is measured in ____ per second and refers to the speed \rat which massive amounts of data can be read from the disc.\r",
+        "chs": [
+            "A) kilobytes\r",
+            "B) megabytes\r",
+            "C) gigabytes\r",
+            "D) terabytes"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "If the transport speed for a magnetic tape is 200 inches per second and the density is 1600 bpi, a \rtotal of ____ bytes can be transferred in one second.\r",
+        "chs": [
+            "A) 3,200\r",
+            "B) 32,000 \r",
+            "C) 320,000\r",
+            "D) 3,200,000"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "____ is a way to optimize search times by ordering the requests once the read/write heads have \rbeen positioned.\r",
+        "chs": [
+            "A) Rotational ordering\r",
+            "B) SSTF\r",
+            "C) C-SCAN\r",
+            "D) LOOK and SCAN"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "To put data on an optical disc requires a high -intensity laser beam, which burns indentations, \rcalled pits, and flat areas, called ____.\r",
+        "chs": [
+            "A) lands\r",
+            "B) valleys\r",
+            "C) hills\r",
+            "D) lakes"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Data recorded on fixed- head DASDs may or may not be blocked at the discretion of the ____. \r",
+        "chs": [
+            "A) end user\r",
+            "B) application programmer\r",
+            "C) operator\r",
+            "D) database administrator"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The need for algorithms to resolve conflicts between processors is called process ____.\r",
+        "chs": [
+            "A) communication\r",
+            "B) synchronization\r",
+            "C) reduction\r",
+            "D) transformation"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "In a symmetric configuration, processor scheduling is ____.\r",
+        "chs": [
+            "A) centralized\r",
+            "B) decentralized\r",
+            "C) multifaceted\r",
+            "D) balanced"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Parallel processing is also called ____.\r",
+        "chs": [
+            "A) uniprocessing\r",
+            "B) multiprocessing\r",
+            "C) shared processing\r",
+            "D) divided processing"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "____ proposed a solution to the readers and writers problem that did not result in starvation \rfor readers or writers.\r",
+        "chs": [
+            "A) Hoare\r",
+            "B) Courtois\r",
+            "C) Heymans\r",
+            "D) Parnas"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Most current operating systems support the implementation of threads, or ____, which have \rbecome part of numerous application packages.\r",
+        "chs": [
+            "A) parallel processes\r",
+            "B) lightweight processes\r",
+            "C) heavyweight processes\r",
+            "D) semaphores"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "Each active thread in a process shares the ____ and the resources allocated to its process.\r",
+        "chs": [
+            "A) processor registers\r",
+            "B) program counter\r",
+            "C) data area\r",
+            "D) status"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "Automatic detection by the compiler of instructions that can be performed in parallel is called \r____.\r",
+        "chs": [
+            "A) automatic parallelism\r",
+            "B) array parallelism\r",
+            "C) explicit parallelism\r",
+            "D) implicit parallelism"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "Operations on semaphore s enforce the concept of ____, which is necessary to avoid having \rtwo operations attempt to execute at the same time.\r",
+        "chs": [
+            "A) mutual execution\r",
+            "B) mutex execution\r",
+            "C) signal exclusion\r",
+            "D) mutual exclusion"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "A ____ of processing must be handled as a unit.\r",
+        "chs": [
+            "A) line\r",
+            "B) segment\r",
+            "C) critical region\r",
+            "D) semaphore"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "In the \"dining philosophers\" problem, a philosopher can pick up a fork when____.\r",
+        "chs": [
+            "A) there is one available\r",
+            "B) there are two available\r",
+            "C) no other philosopher is eating\r",
+            "D) it is his turn, going in numerical order from one philosopher to the next"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "is necessary in any computer system because some resources such as memory, CPU, and \rdedicated devices must be exclusively allocated to one user at a time.\r",
+        "chs": [
+            "A) Mutual exclusion\r",
+            "B) Resource holding\r",
+            "C) No preemption\r",
+            "D) Circular wait"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "____ is when, in modern printing systems, a disk accepts output from several users and acts as a \rtemporary storage area for all output until the printer is ready to accept it. \r",
+        "chs": [
+            "A) Phishing\r",
+            "B) Lagging\r",
+            "C) Spooling\r",
+            "D) Spoofing"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "____ occurs when two processes do not release control of resources they are using.\r",
+        "chs": [
+            "A) No preemption\r",
+            "B) Circular wait\r",
+            "C) Resource holding\r",
+            "D) Mutual exclusion"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "For ____ systems, deadlocks quickly become critical situations.\r",
+        "chs": [
+            "A) batch\r",
+            "B) interactive\r",
+            "C) real-time\r",
+            "D) general purpose"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Failure to lock database records before updating them may result in a ____ between processes.\r",
+        "chs": [
+            "A) struggle\r",
+            "B) race\r",
+            "C) timeout\r",
+            "D) livelock"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "____ developed the Banker's Algorithm.\r",
+        "chs": [
+            "A) Havender\r",
+            "B) Holt\r",
+            "C) Dijkstra\r",
+            "D) Lane & Mooney"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "A network that's congested or has filled a large percentage of its I/O buffer space can become \rdeadlocked if it doesn't have ____ to control the flow of messages through the network.\r",
+        "chs": [
+            "A) procedures\r",
+            "B) protocols\r",
+            "C) policies\r",
+            "D) rules"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "____ is necessary in any computer system because some resources such as memory, CPU, and \rdedicated devices must be exclusively allocated to one user at a time.\r",
+        "chs": [
+            "A) Mutual exclusion\r",
+            "B) Resource holding\r",
+            "C) No preemption\r",
+            "D) Circular wait"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "Interactive systems generally improve the use of resources through ____ resource sharing, but \rthis resource sharing capability also increases the possibility of deadlocks.\r",
+        "chs": [
+            "A) interspersed\r",
+            "B) group\r",
+            "C) dynamic\r",
+            "D) static"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "When using the clock page replacement policy, a page with a reference bit of ____ is replaced.\r",
+        "chs": [
+            "A) -1\r",
+            "B) 0\r",
+            "C) 1\r",
+            "D) 5"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "____ gives users the appearance that their programs are being completely loaded in main \rmemory during their entire processing time. \r",
+        "chs": [
+            "A) Segmenting\r",
+            "B) Virtual memory\r",
+            "C) Shared memory\r",
+            "D) Multithreading"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Studies have shown that having any ____, even a small one, can substantially improve the \rperformance of the computer system.\r",
+        "chs": [
+            "A) cache\r",
+            "B) memory block\r",
+            "C) page block\r",
+            "D) block"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "To access a location in memory when using segmented memory management, the address is \rcomposed of two entries: ____.\r",
+        "chs": [
+            "A) the segment number and the line number\r",
+            "B) the segment number and the displacement\r",
+            "C) the line number and the displacement\r",
+            "D) the segment number, the line number, and the displacement"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "If a particular demand paging configuration has 9 page interrupts out of 11 page requests, \rfailure rate is ____.\r",
+        "chs": [
+            "A) 18%\r",
+            "B) 52%\r",
+            "C) 82%\r",
+            "D) 95%"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "There are ____ entries per page in the PMT.\r",
+        "chs": [
+            "A) 0\r",
+            "B) 1 \r",
+            "C) 2\r",
+            "D) 5"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "The cache hit ratio is ____, if the total number of requests is 10 and 6 of those are found in \rcache memory.\r",
+        "chs": [
+            "A) 6%\r",
+            "B) 10%\r",
+            "C) 60%\r",
+            "D) 100%"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "Assume that the Page Map Table below is in effect. The number of lines per page is 400. The \ractual memory location for line 433 is ____.\rJob Page Number Page Frame Number\r0 8\r1 10\r2 5\r3 11\r",
+        "chs": [
+            "A) 1\r",
+            "B) 33\r",
+            "C) 4000\r",
+            "D) 4033"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "Consider the following four cases. The LRU policy,____, will be least likely to swap.\rModified Referenced Meaning\rCase 1 0 0 Not modified AND not referenced\rCase 2 0 1 Not modified BUT was referenced\rCase 3 1 0 Was modified BUT not referenced\rCase 4 1 1 Was modified AND was refe renced\r",
+        "chs": [
+            "A) Case 1\r",
+            "B) Case 2\r",
+            "C) Case 3\r",
+            "D) Case 4"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "One of the most important innovations of demand paging was that it made ____ feasible.\r",
+        "chs": [
+            "A) memory demand\r",
+            "B) virtual demand\r",
+            "C) virtual paging\r",
+            "D) virtual memory"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "In a single -user system, jobs are processed ____.\r",
+        "chs": [
+            "A) sequentially\r",
+            "B) intermittently\r",
+            "C) randomly\r",
+            "D) in order of longest job to shortest job"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "3 Put job in waiting queue\r4 Go fetch next job\r",
+        "chs": [
+            "A) first-fit memory allocation\r",
+            "B) best-fit memory allocation\r",
+            "C) least-fit memory allocation\r",
+            "D) fixed partition memory allocation"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The operating system can tell the ____ of each group of digits by its location in the line and the \roperation code.\r",
+        "chs": [
+            "A) function\r",
+            "B) value\r",
+            "C) order\r",
+            "D) assignment"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "The ____ of memory, sometimes referred to as garbage collection or defragmentation, is \rperformed by the operating system to reclaim fragmented sections of the memory space.\r",
+        "chs": [
+            "A) deallocation\r",
+            "B) redirection\r",
+            "C) compaction\r",
+            "D) reallocation"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "By compacting and relocating, the Memory Manager optimizes the use of memory and thus \rimproves throughput, but an unfortunate side effect is more ____.\r",
+        "chs": [
+            "A) null entries\r",
+            "B) segmentation\r",
+            "C) errors\r",
+            "D) overhead"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The fixed partition scheme works well ____.\r",
+        "chs": [
+            "A) when jobs have the same size\r",
+            "B) when jobs have different sizes\r",
+            "C) when job sizes are not known in advance\r",
+            "D) when all jobs are under 100K"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "A supercomputer can perform ____ floating-point operations per second.\r",
+        "chs": [
+            "A) 240 million\r",
+            "B) 2.4 billion\r",
+            "C) 2.4 trillion"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "In second-generation computers, to reduce the discrepancy in speed between the I/O and the \rCPU, an interface called the ____ was placed between them to act as a buffer. \r",
+        "chs": [
+            "A) control unit\r",
+            "B) scheduler\r",
+            "C) holder\r",
+            "D) buffer manager"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The primary distinguishing characteristic of modern computers is ____.\r",
+        "chs": [
+            "A) memory capacity\r",
+            "B) processor capacity\r",
+            "C) disk space\r",
+            "D) physical size"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "A system with ____ divides programs into parts and keep them in secondary storage, bringing \reach part into memory only as it is needed.\r",
+        "chs": [
+            "A) virtual memory\r",
+            "B) shared memory\r",
+            "C) segmented processing\r",
+            "D) passive multiprogramming"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "A hybrid system is a combination of the ____ systems.\r",
+        "chs": [
+            "A) batch and interactive\r",
+            "B) batch and real -time\r",
+            "C) interactive and real -time\r",
+            "D) real-time and general-purpose"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "Powerful microcomputers developed for use by commercial, educational and government \renterprises are called ____.\r",
+        "chs": [
+            "A) supercomputers\r",
+            "B) minicomputers\r",
+            "C) terminals\r",
+            "D) workstations"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "Vacuum tube computers were used during the period of ____.\r",
+        "chs": [
+            "A) 1920s-1930s\r",
+            "B) 1935-1945\r",
+            "C) 1940-1955\r",
+            "D) 1945-1960"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "____ introduced the need for control cards, which defined the exact nature of each program \rand its requirements.\r",
+        "chs": [
+            "A) Job scheduling\r",
+            "B) Control scheduling\r",
+            "C) Job control\r",
+            "D) Structure control"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "A typical ____ computer houses devices to perform audio, video, and graphic creation and \rediting.\r",
+        "chs": [
+            "A) multiprocessor\r",
+            "B) multimedia\r",
+            "C) networked\r",
+            "D) PDA"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "The name for the nucleus of an operating system is the ____.\r",
+        "chs": [
+            "A) manager\r",
+            "B) center\r",
+            "C) core\r",
+            "D) kerneld"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Which of the following is an Operating System component? \r[A] Process Management \r[B] Speed Management \r[C] Space Management \r[D] Time Management",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "What is an operating system structure in which the communication between requesting process \rand responding process is message passing? \r[A] Monolithic Systems \r[B] All of the other choices \r[C] MS-DOS \r[D] Client-Server Model",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "The language of the CPU is known as its \r[A] Register set \r[B] Control unit set \r[C] Instruction set \r[D] None ofthe other choices",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Linux and are often used as operating systems on supercomputers, mainframes, and servers. \r[A] UNIX \r[B] Windows \r[C] None ofthe other choices \r[D] Mac OS",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Where is the position of the operating system in computer system: \r[A] Between the user interface program and the application Program \r[B] None of the other choices \r[C] In user space \r[D] Above the hardware and under the user interface program",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Consider a computer system that has cache memory, main memory (RAM) and disk, and OS uses \rvirtual memory. It takes 2 nsec to access a byte from the cache. 20 nsec to access a byte from \rRAM. and 10 msec to \raccess a block of 1000 bytes from the disk. If a b ook has 1000 pages, each with 50 lines of 80 \rcharacters each. How long it will take to electronically scan the textfor the case of the master \rcopy being in each of the level as \rone proceeds down the memory hierarchy (from inboard memory to offline storage )? \r[A] 1 msec. 10 msec. 10 sec \r[B] 4 msec. 40 msec. 20 sec \r[C] 2 msec. 20 msec. 10 sec \rTO] \r1 msec. 10 msec. 5 sec",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "The basic idea behind the microkernel design is: \r[A] All ofthe other choices \r[B] All other modules run as relatively powerless o rdinary user processes \r[C] Only one module runs in kernel mode \r[D] To archive high reliability by splitting operating system up into small, well - defined modules",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Which of the following conditions that causes the processes to be terminated, when processes \rhave \rdone their work? \r[A] Fatal error (involuntary) \r[B] Normal exit (voluntary) \r[C] Killed by another process (i nvoluntary) \r[D] Error exit (voluntary)",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which of the following is not a CPU scheduling criterion? \r[A] Burst time \r[B] CPU utilization \r[C] Throughput \r[D] Response time",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "How many percent of the CPU time is wasted, when a computer system has enough room to \rhold two program and these programs are idle waiting for I/O 10% of the time? \r[A] 90% \r[B] 99% \r[C] None of the other choices \r[D] 1 %",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "To specify an address in this segmented memory, the form is used \r[A] <physical address, offset> \r[B] <process, offset> \r[C] <segment-number, offset> \r[D] <virtual address, offset>",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "QN=3 \r(2537)\rPage replacement algorithms determine\r",
+        "chs": [
+            "a. when the system should update page table entries\r",
+            "b. how many pages should be added to main memory\r",
+            "c. which pages should be brought into memory because a process is likely to reference them soon\r",
+            "d. which page to remove to provide space for an incoming page"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=4 \r(2530)\rThe page table for each process maintains:\r",
+        "chs": [
+            "a. The frame location for each page of the process\r",
+            "b. The page location for each frame of the process\r",
+            "c. The physical memory location of the process\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=6 \r(2528)\rThe second-chance page -replacement algorithm\r",
+        "chs": [
+            "a. Moves pages found at the head of a FIFO queue with the referenced bit turned on back to the tail of the queue to avoid replacing them\r",
+            "b. Searches through a circular list of pages and replaces the first page it encounters that has the referenced bit turned off\r",
+            "c. Relies on a modified bit to determine which page to replace\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=9 \r(2535)\rIn terms of speed the best method of Dynamic Storage -Allocation is:\r",
+        "chs": [
+            "a. Next fit\r",
+            "b. First fit\r",
+            "c. Best fit\r",
+            "d. Worst fit"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=10 \r(2538)\rThe actual location in main memory is called a(n):\r",
+        "chs": [
+            "a. Relative address\r",
+            "b. Logical address\r",
+            "c. Absolute address\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=11 \r(2539)\rLRU replaces the page that has spent the\r",
+        "chs": [
+            "a. longest time in memory\r",
+            "b. longest time in memory without being referenced\r",
+            "c. shortest time in memory"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=12 \r(2536)\rIn a system employing a paging scheme for memory management, wasted space is due to:\r",
+        "chs": [
+            "a. External fragmentation\r",
+            "b. Internal fragmentation\r",
+            "c. Pages and frames of different specified sizes\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=13 \r(2527)\rThe task of subdividing memory between the OS and processes is performed automatically by the \rOS and is called\r",
+        "chs": [
+            "a. Protection\r",
+            "b. Relocation\r",
+            "c. Memory Management\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=14 \r(2532)\rWhich of the following is appropriate to determine program size and create page table?\r",
+        "chs": [
+            "a. Process creation\r",
+            "b. Process execution\r",
+            "c. Page fault time\r",
+            "d. Process termination time"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "525)\rWhat is the method to keep track of memory usages?\r",
+        "chs": [
+            "a. Memory Management with Bit Maps \r",
+            "b. Memory Management with Linked Lists\r",
+            "c. a and b\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=1 \r(2548)\rThe special files a\r",
+        "chs": [
+            "a. character special\r",
+            "b. block special file\r",
+            "c. Neither a nor b\r",
+            "d. Both a and b"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=3 \r(2540)\rA file is generally defined to be:\r",
+        "chs": [
+            "a. A basic element of data\r",
+            "b. A collection of related fields\r",
+            "c. A collection of similar records\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=4 Which of the following is not a path name for the file /etc/passwd \r(2546)\r",
+        "chs": [
+            "a. /etc/passwd\r",
+            "b. /etc/../etc/passwd\r",
+            "c. /etc/../etc/../etc/passwd\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=7 \r(2544)\rWhat is incorrect about contiguous allocation of files ?\r",
+        "chs": [
+            "a. It is simple to implement\r",
+            "b. It leads to excellent read performance\r",
+            "c. It does not cause disk fragmentation\r",
+            "d. It is widely used on CD-ROMs"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=10 \r(2545)\rWhich of the following is not correct about hard links and symbolic links?\r",
+        "chs": [
+            "a. Symbolic links need space to store the name and the file pointed to\r",
+            "b. Hard links do not require extra disk space\r",
+            "c. Symbolic links can point to files in the network\r",
+            "d. Hard links can point to files on other machines"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=2 \r(2578)\rWhich of the following I/O software device layers is done by user-level software?\r",
+        "chs": [
+            "a. Computing the track, sector, and head for a disk read\r",
+            "b. Writing commands to the device registers\r",
+            "c. Checking to see if the user is permitted to use the dev ice\r",
+            "d. Converting binary integers to ASCII for printing"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=3 \r(2581)\rAn example of the key differences that can exist across (and even in) classes of I/O devices is:\r",
+        "chs": [
+            "a. Data rate\r",
+            "b. Data representation\r",
+            "c. Error conditions\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=6 \r(2580)\rWhich of the following is not correct about the reliability of different RAID levels?\r",
+        "chs": [
+            "a. There is no reliability support in RAID level 0\r",
+            "b. All RAID levels can survive one disk crash\r",
+            "c. In RAID level 2, a single bit error in a word can be detected AND corrected\r",
+            "d. In RAID levels 3, 4, 5 a single bit error in a word can be detected"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=7 \r(2577)\rWhich of the following statements is not correct about \"device independence\"?\r",
+        "chs": [
+            "a. Files and devices are accessed in the same way, ind ependent of their physical nature\r",
+            "b. A system has to maintain only one set of system calls for both writing on a file and writing on the console\r",
+            "c. Device independence requires all programmers to deal with different devices directly\r",
+            "d. Device independent interfaces should be given to programmers"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=8 \r(2579)\rWhat kind of I/O devices that disks and tapes belong to?\r",
+        "chs": [
+            "a. Stream-oriented devices\r",
+            "b. Block-oriented devices\r",
+            "c. Character-oriented devices \r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=9 \r(2575)\rWhich of the following statements is incorrect?\rdevice\r",
+        "chs": [
+            "a. The term data rate refers to the speed with which data moves to and from the individual I/O \r",
+            "b. In the interrupt-driven I/O technique, the processor issues an I/O request, continues with other work and eventually receives notification that the request was fulfilled\r",
+            "c. A hard drive is an example of a character-oriented I/O device\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=10 \r(2582)\rThe I/O technique where the processor busy waits for an I/O operation to complete is called:\r",
+        "chs": [
+            "a. Programmed I/O\r",
+            "b. Interrupt-driven I/O\r",
+            "c. Direct Memory Access (DMA)\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=1 \r(2590)\rThe system is said to be in an unsafe state if\r",
+        "chs": [
+            "a. The operating system cannot guarantee that all current processes can complete their work\r",
+            "b. The system is deadlocked\r",
+            "c. A process is indefinitely postponed\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=2 \r(2584)\rIf in a resource -allocation graph, each resource type has exactly one instance, which of the \rfollowing indicate a deadlock situation?\r",
+        "chs": [
+            "a. The graph has at least one cycle.\r",
+            "b. The graph has no cycle.\r",
+            "c. The graph is connected.\r",
+            "d. The graph is not connected."
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=3 \r(2583)\rAll deadlocks involve conflicting needs for resources by\r",
+        "chs": [
+            "a. One or more processes\r",
+            "b. Two or more processes\r",
+            "c. Three or more processes\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=4 \r(2588)\rWhat is the characteristic of deadlocked systems\r",
+        "chs": [
+            "a. Starvation\r",
+            "b. Circular wait\r",
+            "c. Saturation"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=5 \r(2586)\rA possibility of deadlock can occur:\r",
+        "chs": [
+            "a. If a system is in safe state\r",
+            "b. If a system is in unsafe state\r",
+            "c. If a system is in instable state\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=6 \r(2592)\rWhat is the weakness of the Banker's algorithm?\r",
+        "chs": [
+            "a. Allowing the population of processes to vary over time\r",
+            "b. Enabling processes to hold their resources indefinitely\r",
+            "c. Requiring that processes state their maximum needs in advance\r",
+            "d. Enabling the number of resources to fluctuate"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=8 \r(2589)\rWhich of the following is not a condition necessary for deadlock to exist?\r",
+        "chs": [
+            "a. mutual-exclusion condition\r",
+            "b. circular-wait condition\r",
+            "c. hold and wait condition\r",
+            "d. preemption condition"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=9 \r(2591)\rDijkstra's Banker's Algorithm require the system to maintain the resource information for each \rprocess, including:\r",
+        "chs": [
+            "a. A count of the system's total resources\r",
+            "b. The maximum resources that can be requested by the process\r",
+            "c. The number of resources currently acquired by the process\r",
+            "d. B and C"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "N=10 \r(2585)\rIf a deadlocked system, the processes can\r",
+        "chs": [
+            "a. run\r",
+            "b. release resources\r",
+            "c. be awakened\r",
+            "d. do nothing"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "N=1 \r(2299)\rWhich of the following statements is incorrect about user mode and kernel mode?\r",
+        "chs": [
+            "a. In kernel mode, the OS can execute every instruction in the instruction set\r",
+            "b. In user mode, user program can execute only a subset of instructions\r",
+            "c. Having two modes of operation helps prevent user programs from accessing critical instructions\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "First-come, first- served (FCFS) is a very simple algorithm to implement because it ____.\r",
+        "chs": [
+            "A) uses a FIFO queue\r",
+            "B) uses a LIFO queue\r",
+            "C) uses a circular queue\r",
+            "D) uses a directed graph"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "The Job Scheduler seeks to ____, when scheduling jobs.\r",
+        "chs": [
+            "A) run all CPU intensive jobs first\r",
+            "B) run all I/O intensive jobs first\r",
+            "C) balance CPU and I/O intensive jobs\r",
+            "D) run the quickest jobs first"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "Assume jobs A-D arrive in quick succession in the READY queue. Using round robin scheduling, \rthe turnaround time for job C is ____.\rArrival time: 0 1 2 3\rJob: A B C D\rCPU cycle: 8 4 9 5\r",
+        "chs": [
+            "A) 7\r",
+            "B) 20\r",
+            "C) 22\r",
+            "D) 24"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "The Process Scheduler assigns the CPU to execute the processes of those jobs placed on the \r____ queue by the Job Scheduler.\r",
+        "chs": [
+            "A) WAITING\r",
+            "B) NEXT \r",
+            "C) PROCESS\r",
+            "D) READY"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "In a highly interactive environment there is a third layer of the Processor Manager called the \r____ scheduler.\r",
+        "chs": [
+            "A) Managing\r",
+            "B) Subprocess\r",
+            "C) middle- level\r",
+            "D) Program"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "3/ Which of the following is OS component?\r",
+        "chs": [
+            "A/ Space Management\r",
+            "B/ Speed Management\r",
+            "C/ Time Management\r",
+            "D/ Process Management"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "4/ MS- DOS is an example of ...\r",
+        "chs": [
+            "A/ Layered System\r",
+            "B/ Monolithic system\r",
+            "C/ Virtual machine\r",
+            "D/ Client- server model"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "5/ What is interrupt vector?\r",
+        "chs": [
+            "A/ A signal an I/O devices sends to CPU\r",
+            "B/ Part of memory which contains the addresses of interrupt handlers\r",
+            "C/ None of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "7/ Which of the following is NOT a correct explanation of UNIX which is one of the OS?\rit has been adopted in a wide range of devices.\r",
+        "chs": [
+            "A/ Provides network functions that easily implement distributed processing.\r",
+            "B/ It is a single- user and multi-task OS\r",
+            "C/ Since its specifications have been released to the public and it has a high portability, \r",
+            "D/ Provides an interactive human interface that uses character- based commands."
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "9/ what is the value of mode bit in User Mode?\r",
+        "chs": [
+            "A/ 00\r",
+            "B/ 11\r",
+            "C/1 \r",
+            "D/ 0"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "10/ What is the correct statement about the process of booting a computer?\r",
+        "chs": [
+            "A/ BIOS loads the operating system immediately into RAM\r",
+            "B/ BIOS detects the boot device, the boot sector determines the active partition, then the boot loader loads the operating system\r",
+            "C/ None of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "11/ What is the correct about trap instructions and interrupts ?\rmode?\r",
+        "chs": [
+            "A/ A trap instruction switch the execution mode of a CPU from the user mode to kernel \r",
+            "B/ A trap instruction is caused by a user program to invoke functions in the OS kernel\r",
+            "C/ An interrupt is caused by an external event\r",
+            "D/ All of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "1/ Which of the following is a high-level synchronization primitive?\r",
+        "chs": [
+            "A/ Semaphores\r",
+            "B/ Monitors\r",
+            "C/ TSL\r",
+            "D/ None of the above"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "2/ Which of the following is used in mutual exclusion ( exclusive control)?\r",
+        "chs": [
+            "A/ Checkpoint\r",
+            "B/ Semaphore\r",
+            "C/ Contention\r",
+            "D/ Hash"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "4/ Which of the following preemptive scheduling algorithm?\r",
+        "chs": [
+            "A/ FCFS\r",
+            "B/ Shortest Job First \r",
+            "C/ Round Robin\r",
+            "D/ None of the above"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "6/ Which of the following state transitions are illegal?\r",
+        "chs": [
+            "A/ ready -> running\r",
+            "B/ running -> ready\r",
+            "C/ waiting -> runing\r",
+            "D/ running -> terminated"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "8/ Which of the following cannot be shared among different threads of a process?\r",
+        "chs": [
+            "A/ File handless\r",
+            "B/ Process data \r",
+            "C/ Process code\r",
+            "D/ Stack"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "1/ The maximum segment for Process Pentium if the Limit field of Segment Descriptor \rhas Unit of Byte? \r",
+        "chs": [
+            "A/ 1MB\r",
+            "B/ 1 GB\r",
+            "C/ 4GB\r",
+            "D/ None of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "4/ A page fault means that we referenced a page?\r",
+        "chs": [
+            "A/ With an incorrect I/O request\r",
+            "B/ outside the memory boudaries\r",
+            "C/ that was not in secondary storage\r",
+            "D/ that was not in main memory"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "How many levels of Page Tables the Processor Pentium supports:\r",
+        "chs": [
+            "A/ 3\r",
+            "B/ 1\r",
+            "C/ 4\r",
+            "D/ 2"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "6/ What is not the technique of implemention for Virtual Memory?\r",
+        "chs": [
+            "A/ Demand segmentation\r",
+            "B/ Demand partition\r",
+            "C/ Demand paging\r",
+            "D/ All of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "7/ Which of the following information bits in the entry of page table is used to indicate Page Fault?\r",
+        "chs": [
+            "A/ Status bit\r",
+            "B/ Present/ Absent bit\r",
+            "C/ Referenced bit\r",
+            "D/ Modified bit"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "8/ How many levels of Protection the Processor Pentium supports; \rA. 8\rB. 6\rC. 4\rD. 2",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "10/ The ways to keep track of memory usages:\r",
+        "chs": [
+            "A/ Memory Management with Bit Maps\r",
+            "B/ Memory Management with Linked Lists \r",
+            "C/ A vs B\r",
+            "D/ None of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=4 \r(2292)\rWhat is the main characteristic of embedded operating system?\r",
+        "chs": [
+            "a. Multiple CPU\r",
+            "b. Time-sharing\r",
+            "c. Many I/O devices\r",
+            "d. Restriction of memory size, speed of CPU, screen size, powers"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=5 \r(2300)\rWhich is the difference between personal computers and mainframe computers?\r",
+        "chs": [
+            "a. Personal computers are always interactive\r",
+            "b. Mainframe computers are mostly batch systems with many users\r",
+            "c. Protection is much more important on mainframe computers\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=8 \r(2293)\rA Control/Status register that contains the address of the next instruction to be fetched is called \rthe:\r",
+        "chs": [
+            "a. Instruction Register (IR)\r",
+            "b. Program Counter (PC)\r",
+            "c. Program Status Word (PSW)\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=9 \r(2291)\rThe general role of an operating system is to:\r",
+        "chs": [
+            "a. Act as an interface between various computers\r",
+            "b. Provide a set of services to system users\r",
+            "c. Manage files for application programs\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=10 \r(2290)\rThe two basic types of processor registers are:\r",
+        "chs": [
+            "a. General and special registers\r",
+            "b. Control and Status registers\r",
+            "c. User-visible and user-invisible registers \r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=14 \r(2298)\rWhich of the following statements is incorrect about timesharing and multiprogramming \rsystems?\r",
+        "chs": [
+            "a. In a timesharing system, multiple users can access the system simultaneously\r",
+            "b. In a multiprogramming system, one user can run several processes simultaneously\r",
+            "c. All timesharing systems are multiprogramming systems\r",
+            "d. All multiprogramming systems are timesharing systems"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=1 \r(2309)\rWhich of the following statements is correct about Shortest Job First\r",
+        "chs": [
+            "a. Avoid Starvation\r",
+            "b. Minimize average waiting time\r",
+            "c. Both a and b\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=3 \r(2305)\rWhich of the following process state transitions are legal?\r",
+        "chs": [
+            "a. waiting -> running\r",
+            "b. running -> ready\r",
+            "c. waiting -> terminated\r",
+            "d. ready -> terminated"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=4 \r(2316)\rWhich of the following is not correct about user-level threads ?\rkernel calls to switch among threads\rhas been used up\r(which contains that user-level thread)",
+        "chs": [
+            "a. User-level threads are more efficient than kernel threads, in the sense that they do not need \r",
+            "b. User-level threads cannot be preempted by clock interrupts unless the whole process' quantum \r",
+            "c. With user-level threads, customized scheduling algorithms cannot be implemented\r",
+            "d. If one user-level thread makes a blocking system call, the system will block the entire process \r"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=5 \r(2313)\rWhat is Software proposal in the solution of Mutual exclusion with Busy waiting\r",
+        "chs": [
+            "a. Lock Variables\r",
+            "b. Strict Alternation\r",
+            "c. Peterson's Solution\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=10 \r(2311)\rWhich is the correct description of transitions between process states below? (see picture) \rInput becomes available\rScheduler picks this process\rScheduler picks another process",
+        "chs": [
+            "a. 1: Process blocks for input; 2: Scheduler picks another process; 3: Scheduler picks this process; 4: Input becomes available\r",
+            "b. 1: Process blocks for input; 2: Scheduler picks this process; 3: Scheduler picks another process; 4: \r",
+            "c. 1: Process blocks for input; 2: Input becomes available; 3: Scheduler picks another process; 4: \r",
+            "d. 1: Process blocks for input; 2: Input becomes available; 3: Scheduler picks this process; 4: \r"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=12 In a single processor system, mutual exclusion can be guaranteed by: \r(2314)\r",
+        "chs": [
+            "a. Overlapping processes\r",
+            "b. Interleaving processes\r",
+            "c. Disabling interrupts\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=14 \r(2319)\rWhich is a wrong statement about the quantum used in Round Robin algorithm ?\r",
+        "chs": [
+            "a. If the quantum is very large, RR is essentially FCFS\r",
+            "b. If the quantum is very small, the CPU efficiency is reduced\r",
+            "c. A reasonable value of quantum is around 20-50 ms\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=15 \r(2317)\rWhich of the following synchronization mechanisms does not rely on busy -waiting ?\r",
+        "chs": [
+            "a. Lock variables \r",
+            "b. Strict alternation\r",
+            "c. Peterson's algorithm\r",
+            "d. Semaphores"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "is a specialized WRITE command for existing data files that allows for appending records or for \rrewriting selected records in their original place in the file. \r[A] UPDATE \r[B] REWRITE \r[C] MODIFY \r[D] APPEND",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Many computer users and some operating systems call subdirectories \r[A] Volumes \r[B] Databases \r[C] Folders \r[D] Files",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which method is used to implement files to keep each file as a linked list of disk blocks? \r[A] Contiguous Allocation \r[B] i -node \r[C] File Allocation Table \r[D] Linked List Allocation",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which of the following allocation methods, Operating system MS-DOS is implemented? \r[A] Linked allocation using FAT \r[B] Indexed allocation \r[C] Contiguous allocation \r[D] Linked allocation",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which of a system call is to allow the system announce that the file is coming and set some of \rthe attributes? \r[A] CREATE \r[B] RENAME \r[C] OPEN \r[D] CLOSE",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Which of a system call is to allow the file to appear in more than one directory? \r[A] CREATE \r[B] LINK \r[C] OPEN \r[D] SEEK",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Which of a system call is to allow the system free up internal table space? \r[A] SEEK \r[B] OPEN \r[C] Close\r[D] DELETE",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "How much cylinder skew is needed for a 5400- RPM (rotate per minute) disk with the track-to-track \rseek time of 1 msec? The disk has 200 sectors of 512 bytes on each track. \r[A] 18 sectors \r[B] 12 sectors \r[C] 24 sectors \r[D] 36 sectors",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "The aspect of disk performance that represents the time it takes to position the head a the \rdesired track is known as \r[A] Rotational delay \r[B] Access time \r[C] Seek time \r[D] None of the other choices",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "A operation concerning Stable Storage is: \r[A] Stable Reads \r[B] All of the other choices \r[C] Crash recovery \r[D] Stable writes",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Rearrange the layers in I/O software starting at the bottom \r1. User-level I/O software \r2. Device drivers \r3. Interrupt handlers \r4. Hardware \r5. Device-independent OS software \r[A] 12345 \r[B] 54321 \r[C] 15234 \r[D] 43251",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "When an external device becomes ready to be serviced by the processor, the device sends this \rsignal to the processor. This signal is called: \r[A] None of the other choices \r[B] Halt signal \r[C] Interrupt signal \r[D] Handler signal",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Assuming that it takes 10 nsec to copy a byte, how much time does it take to completely rewrite \rthe \rscreen of a 1200 x 800 pixel graphics with 24- bit color? \r[A] 288 msec \r[B] 288 micro-sec \r[C] 28.8 micro-sec \r[D] 28.8 msec",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "What is asynchronous transfer in principles of I/O software? \r[A] The user process makes system call and goes to sleep until other process it wakes up \r[B] None of the other choices \r[C] The user program starts system cal l to transfer and automatically suspended until the data are available in the buffer \r[D] The CPU starts the transfer and goes off to do something else until the interrupt arrives",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Assuming that it takes 10 nsec to copy a byte, how much time, does it take to completely \rrewrite the screen of a 200 character \rx 20 line text mode memory- mapped screen? \r[A] 10 micro-sec \r[B] 30 micro-sec \r[C] 40 micro-sec \r[D] 20 micro-sec",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which of the following statements is incorrect about I/O using DMA? \r[A] None of the other choices \r[B] DMA helps free up the CPU during the I/O to do other work \r[C] DMA helps reduce the number of interrupts \r[D] DMA is software solution to speed up data transfer between I/O device and memory",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "In a directed graph used to model deadlock, resources are re presented using \r[A] Rectangle \r[B] Circular \r[C] Squares. \r[D] Ellipse",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Which deadlock condition does \"Ordering resources numerically\" attack? \r[A] No preemption \r[B] Circular-wait condition\r\r[C] Hold and wait \r[D] Mutual exclusion",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Which deadlock condition does \"Take resources away\" attack? \r[A] Circular-wait condition \rB\rNo preemption \rC\rHold and wait \r[D] Mutual exclusion",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which method is used to prevent the communication deadlock? \r[A] All of the other choices \r[B] Timeouts \r[C] Handling alarm \r[D] Acknowledge signa",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "_________is the act of allowing only one process to have access to a dedicated resource \r[A] Hold and wait condition \r[B] No preemption condition \r[C] Circular-wait condition \r\r[D] Mutual-exclusion condition",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "What is the correct approach of the driver of dedicated devices with requesting device that is \rbusy to \rsolve deadlock using Ostrich algorithm? \r[A] The device driver stops the current jobs and releases the devices \r[B] The device driver kills those requesting processes \r[C] All of the other choices \r[D] The device driver decides blocking and returning an error code",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "What is true about non-preemptable resources? (non preemptable)\r[A] Can be taken away from a process with no ill effects \r[B] None of the other choices \r[C] Will cause the process to fail if taken away \r[D] Can share among processes",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which of the following is not a step in the boot process? \r[A] The antivirus program checks all files for viruses. \r[B] Configuration and customization settings are checked \r[C] The operating system is loaded into RAM. \r[D] The BIOS is activated by powering on the CPU.",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which of a system call is to allow the system free up disk space? \r[A] OPEN \r[B] CLOSE \r[C] SEEK \r[D] DELETE",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Consider a swapping system in which the memory consists of the following hole sizes: 10K, 4K, \r20K, 15K, 9K. \rAssume best fit algorithm is used. Which holes are taken for successive segment requests of 8K, \r12K, 10K? \r[A] 10K, 15K, 20K \r[B] 10K, 20K, 15K \r[C] 9K, 15K, 10K \r[D] 20K, 15K, 10K",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Assume the Memory Manager receives a request for a block of 200. When the best-fit algorithm \ris used, is the beginning address of the hole granted by the Memory Manager. \rBeginning Address of Hole Hole Size \r4075 105 \r5225 5 \r6785 600 \r7560 20 \r7600 205 \r10250 4050 \r[A] 6785 \r[B] 7600 \r[C] 10250",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "A ____ is a portion of a process that can run independently. \r[A] subprocess \r[B] thread \r[C] program \r[D] Mini-process",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "The term__________a specialized instruction set. \r[A] None of the other choices \r[B] I/O device \r[C] DMA characterizes a system configuration that includes an I/O module that is a separate processor with \r[D] Programmed I/O",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Consider a swapping system in which the memory consists of the following hole sizes: 10 K, 4 K, \r20 K, 15 K, 9 K. Assume first fit algorithm is used. Which holes are taken for successive segment requests \rof 8 K, 12 K, 10 K? \r[A] 9 K, 15 K, 10 K \r[B] 10 K, 20 K, 15 K \r[C] 20 K, 15 K, 4 K \r[D] None of the other choices",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which is the fastest bus in the IBM PC computer? \r[A] ISA (Industry Standard Architecture) \r[B] USB (Universal Serial BUS) \r[C] IDE (Integrated Drive Electronic) \r[D] PCI (Peripheral Component Interconnect)",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Assume the following events and actions take place. The following statement is true. Event \rAction \r1 P1 requests and is allocated R1. P1 requests and is allocated R1 \r2 P2 requests and is allocated R2 \r3 P3 requests and is allocated R3 \r4 P1 requests R2. \r5 P2 requests R3. \r6 P3 requests R1. \r[A] There is no deadlock \r[B] Event 5 caused deadlock. \r[C] Event 4 caused deadlock \r[D] Event 6 caused deadlock.",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Operating system abstraction supports the ability to have operation even when there is only one \rCPU available \r[A] None of the other choices \r[B] parallel \r[C] multiple \r[D] pseudoparallelism",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "The page size that is too small wil l generate \r[A] More difficult to calculate actual position \r[B] Excessive internal fragmentation \r[C] Very long Page tables \r[D] Excessive external fragmentation",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "In a directed graph used to model deadlock, processes are represented using \r[A] Rectangle \r[B] Circular \r[C] Squares \r[D] Ellipse",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "How many categories can be the I/O devices roughly divided? \r[A] 3\r[B] 2\r(block devices and character devices)\r[C] 4 \r[D] 1",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "What is not the technique of implementation for Virtual Memory? \r[A] All of the other choices \r[B] Paging \r[C] Segmentation \r[D] Partition",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "A CPU may have separate fetch, decode and execute units, so that can carry out three steps of \rthe three instructions in the same time is called: \r[A] Multicore \r[B] Pipeline \r[C] None of the other choices \r[D] Superscalar",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Which of a system call is to allow the system fetch the attributes and list of disk addresses into \rmain memory for rapid access on later call? \r[A] SEEK \r[B] OPEN \r[C] RENAME \r[D] CLOSE",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which of the following statements is not correct about the device controller of I/O devices? \r[A] Is also called adapter \r[B] Can handle two, four, or even eight identical devices \r[C] Is electronic component of device \r[D] Is software component of device",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "QN=5 (6907) Which of the following is not a task of I/O management of OS?\r",
+        "chs": [
+            "a. Manage main memory for the devices using caching, buffering, and spooling\r",
+            "b. Maintain and provide a general device-driver interfaces\r",
+            "c. Mapping files onto secondary storage\r",
+            "d. Drivers for specific hardware devices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=7 (6916) ____ is the partitioning of a single server, each of which can support a different operating system.\r",
+        "chs": [
+            "a. Multiprocessing\r",
+            "b. Multithreading\r",
+            "c. Virtualization\r",
+            "d. Shared processing"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=1 (6837) A CPU may have two or more complete processors, so that can carry out multiple threads in the same time is called: \r",
+        "chs": [
+            "a. Pipeline\r",
+            "b. Superscalar\r",
+            "c. Multicore\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=8 (6896) The interface between the operating system kernel and the user programs is defined by the set of ________ that the operating system provides \r",
+        "chs": [
+            "a. System calls\r",
+            "b. Functions\r",
+            "c. Threads\r",
+            "d. Processes"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=17 (6980) What happens when a thread calls Down (S) when it wants to enter its critical section, where S is a binary semaphore set to 1? \r",
+        "chs": [
+            "a. The thread is allowed to enter its critical section and S is decremented.\r",
+            "b. The thread is blocked and added to a queue of waiting threads.\r",
+            "c. The semaphore is set to 2.\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=8 (7455) The File Manager writes the volume name and other descriptive information on an easy-to-access place on each unit: ____ of the magnetic disk \r",
+        "chs": [
+            "a. The outermost part\r",
+            "b. The innermost part\r",
+            "c. Immediately following the master file directory\r",
+            "d. Stored at the beginning of the volume"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "QN=11 (7490) Which of the following statement is not true about separating I/O and memory space? \r",
+        "chs": [
+            "a. Device drivers must be written using assembly language\r",
+            "b. Programs must use 2 instructions to test whether the device is ready\r",
+            "c. There is special protection mechanism to keep user processes from performing I/O\r",
+            "d. Caching a device control register would be disastrous"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=50 (7523) Each device attached to your computer comes with a specia l program called a \r__________ that facilitates the communication between the device and the OS.\r",
+        "chs": [
+            "a. device configurator\r",
+            "b. translator\r",
+            "c. device driver\r",
+            "d. communication utility"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "QN=19 (7547) Which concept is described as \"disk sectors are just numbered consecutively starting at 0, without regard to the disk geometry\"? \r",
+        "chs": [
+            "a. Logical block addressing\r",
+            "b. Physical block addressing\r",
+            "c. Virtual block addressing\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "What is the characteristic of the first generation of operating system? \r[A] Personal computers, single user, multitasking \r[B] Transistors, batch systems \r[C] Vacuum tubes, plug boards \r[D] ICs and multiprogramming",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which is not an example of a resource that is commonly time-multiplexed?\r",
+        "chs": [
+            "a. Network interface\r",
+            "b. CPU\r",
+            "c. Graphics accelerator\r",
+            "d. Main memory"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Which of the following is an Operating System component? \r[A] Process Management \r[B] Speed Management \r[C] Space Management \r[D] Time Management",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which of the following process state transitions is correct, when the scheduler picks a process from \rthe ready queue to run? \r[A] Ready -> running \r[B] Running -> Blocked (waiting) \r[C] Blocked (waiting) -> ready \r[D] Running -> ready",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which of the following process state transitions is illegal? \r[A] Ready -> Blocked (waiting) \r[B] Running -> Blocked (waiting) \r[C] Blocked (waiting) -> ready \r[D] Running -> ready",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Critical Region (Section) concept used in interprocess communication is: \r[A] A part of shared memory \r[B] A part of the program where the shared memory is accessed \r[C] None of the other choices \r[D] A part of shared data",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which ofthe following operating systems is an example of monolithic system? \r[A] Windows XP \r[B] Mac OS \r[C] UNIX \r[D] MS-DOS",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "A well-known Real-Time operating system is: \r[A] MS-DOS \r[B] e-COS \r[C] TinyOS \r[D] Personal Operating System",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Which of the following instructions should be allowed only in kernel mode? \r[A] ADD of two numbers \r[B] Read the time-of-day clock \r[C] Disable all interrupts \r[D] AND of two numbers",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "The _________is the essential component ofthe operating system that remains in RAM when your computer is powered on. \r[A] system file \r[C] kernel \r[D] registry",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which is not a goal of a sheduling algorithm for all systems?\r[A] Balance \r[B] Response time \r[C] Policy enforcement \r[D] Fairness",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "A entry of the Process table is called: \r[A] All of the other choices \r[B] Process check block \r[C] Process management block\r[D] process control block.",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "One of the most important innovations of demand paging was that it made feasible \r[A] Virtual paging \r[B] Virtual memory. \r[C] Memory demand \r[D] Virtual demand",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "When a virtual memory system manages memory in fixed length units, which of the following terms \rcorrectly represents its unit? \r[A] Page \r[B] Frame \r[C] Block \r[D] Segment",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which is the maximum number of partition that most disks can be divided up? \rA. 1\rB. 2\rC. 3\rD. 4",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which of the following is not special file? \r[A] None of the other choices \r[B] Block special file \r[C] Character special file \r[D] Stream special file",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Device Driver is usually written by: \r[A] Device's Manufacturer \r[B] OS's Manufacturer \r[C] Computer's Manufacturer \r[D] All of the other choices",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Imagine that a certain modem can read 7,000 characters per second and that the time to read a \rcharacter to the modem register is so short it can be ignored. If to run this modem using interrupt-\rdriven I/O and each character read requires an interrupt that takes 10 usee all-in to service. How \rmany percent of the CPU does the interrupt overhead cost? \r[A] 4% of the CPU \r[B] 7% of the CPU \r[C] 96% of the CPU \r[D] 93% of the CPU",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "In a directed graph used to model deadlock, ______represents deadlock. \r[A] Dashed arrow \r[B] Solid arrow \r[C] Any path \r[D] Cycle",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Which is not a function of device drivers? \r[A] To manage its power requirements and log events \r[B] To accept abstract read and write request from device independent software above it and see that they are curried out \r[C] To receive system call \r[D] To initialize the device, if needed",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "What is the correct approach with the \"Mutual Exclusion condition\" to prevent Deadlock? \r[A] Take resources away \r[B] Request all resources initially \r[C] Spool everything\r[D] Order resources numerically",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "An example of preemptable resources is \r[A] DVD device \r[B] None of the other choices \r[C] CD-ROM device \r[D] Memory",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "In the \"dining philosophers\" problem, a philosopher can pick up a fork when____.\r A) there is one available\r B) there are two available\r C) no other philosopher is eating\r D) it is his turn, going in numerical order from one philosopher to the next",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Assume the following events and actions take place. The following statement, ____ is true.\rEvent Action\r1 P1 requests and is allocated the printer R1.\r2 P1 releases the printer R1.\r3 P2 requests and is allocated the disk drive R2.\r4 P2 releases the disk R2.\r5 P3 requests and is allocated the plotter R3.\r6 P3 releases the plotter R3.\r A) There is no deadlock.\r B) Event 4 caused deadlock.\r C) Event 5 caused deadlock.\r D) Event 6 caused deadlock",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Consider the case of a home construction company with two application programs, purchasing (P1) and sales (P2), which are active at the same time. They each need to access two files, inventory (F1) and suppliers (F2), to update daily transactions. The following series of events will cause a deadlock. Fill in the missing event in the sequence.\r\r1. Purchasing (P1) accesses the supplier file (F2).\r2. Sales (P2) accesses the inventory file (F1).\r3. Purchasing (P1) doesn't release the supplier file (F2) but requests the inventory file (F1), but P1 is blocked because F1 is being held by P2.\r4. Meanwhile, ____\r\r A) sales (P2) doesn't release the inventory file (F1) but requests the supplier file (F2)\r B) sales (P2) does release the inventory file (F1) and then requests the supplier file (F2)\r C) purchasing (P1) does release the supplier file (F2) which is then requested by sales (P2)\r D) purchasing (P1) exits",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Fill in the missing step in the following deadlock situation. Two users from the local board of education are each running a program (P1 and P2), and both programs will eventually need two DVD drives to copy files from one disc to another. Only two DVD-R drives are available and they're allocated on an \"as requested\" basis. Soon the following sequence transpires:\r1. P1 requests drive 1 and gets it.\r2. ____\r3. P1 requests drive 2 but is blocked.\r4. P2 requests drive 1 but is blocked.\r A) P1 requests drive 2.\r B) P2 requests drive 2 and gets it.\r C) P2 requests drive 1 but is blocked.\r D) P1 releases drive 1.",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "With demand paging, jobs are divided into equally sized ____ that initially reside in secondary storage.\r A) pages\r B) blocks\r C) frames\r D) sets",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "If a particular demand paging configuration has 9 page interrupts out of 11 page requests, failure rate is ____.\r A) 18%\r B) 52%\r C) 82%\r D) 95%",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "The cache hit ratio is ____, if the total number of requests is 10 and 6 of those are found in cache memory.\r A) 6%\r B) 10%\r C) 60%\r D) 100%",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "The ____ policy is based on the theory that the best page to remove is the one that has been in memory the longest.\r A) TRU\r B) LRU\r C) LIFO\r D) FIFO",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "What are the allocation methods of disk blocks for files:\r",
+        "chs": [
+            "a. Contiguous allocation\r",
+            "b. Linked allocation\r",
+            "c. Indexed allocation\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "The following requirement must be met by any facility or capability that is to provide support for mutual exclusion:\r",
+        "chs": [
+            "a. Only one process at a time can be allowed into a critical code section\r",
+            "b. A process remains in its critical region for a finite time only\r",
+            "c. No assumption can be made about relative process speeds\r",
+            "d. All of the above"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "Which of the following is appropriate to release page table and pages?\r",
+        "chs": [
+            "a. Process creation\r",
+            "b. Process execution\r",
+            "c. Page fault time\r",
+            "d. Process termination time"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "Which of the following information bits used by the various page replacement policies indicates if the page has been called lately?\r",
+        "chs": [
+            "a. Locality bit\r",
+            "b. Status bit\r",
+            "c. Referenced bit\r",
+            "d. Modified bit"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The system is said to be in an unsafe state if\r",
+        "chs": [
+            "a. The operating system cannot guarantee that all current processes can complete their work\r",
+            "b. The system is deadlocked\r",
+            "c. A process is indefinitely postponed\r",
+            "d. None of the above"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "QN=42 (7487) In the memory-mapped I/O system, in order that CPU communicates with the control registers in the devices, the control register is assigned : \r",
+        "chs": [
+            "a. Index\r",
+            "b. I/O address\r",
+            "c. Unique memory address\r",
+            "d. None of the other choices"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "QN=60 (7637) A system has four processes and five allocated resources. The current allocation and maximum needs are as follows:\rProcess Allocated Maximum Available\r------------------------------------------------------------------------------------------------------------------\rA 10211 11212 00x11\rB 20110 22210 \rC 11011 21311 \rD 11010 11121 \r \r\rWhat is the smallest value of x for which this is a safe state? \r",
+        "chs": [
+            "a. 0\r",
+            "b. 1\r",
+            "c. 2\r",
+            "d. 3"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "1. The operating system does each of the following except\r",
+        "chs": [
+            "a. Allocates the computer's components to different programs\r",
+            "b. Synchronizes individual programs' activities\r",
+            "c. Ensures that programs terminate their execution\r",
+            "d. Provides the general mechanisms that are needed so that the programs execute in perfect harmony"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "2. The process is the computational environment that includes each of the following except\r",
+        "chs": [
+            "a. Operating system\r",
+            "b. Data\r",
+            "c. Program\r",
+            "d. Files"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "3. Threads can be implemented in each of the following ways except\r",
+        "chs": [
+            "a. Run-time libraries\r",
+            "b. Operating system\r",
+            "c. Java Virtual Machine\r",
+            "d. Parent/child processes"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "4. Files are distinguished from other resources except that\r",
+        "chs": [
+            "a. The interface is exceptionally complex as compared with most other resources.\r",
+            "b. They are the prevalent form of storing information\r",
+            "c. Operating systems often use the file as a primitive for modeling other resource abstractions\r",
+            "d. UNIX pipes can be modeled as files"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "5. A UNIX process contains each of the following except\r",
+        "chs": [
+            "a. Text segment\r",
+            "b. Data segment\r",
+            "c. Thread segment\r",
+            "d. Stack segment"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "6. The process manager deals with the following except\r",
+        "chs": [
+            "a. Thread management\r",
+            "b. Resource management\r",
+            "c. Process management\r",
+            "d. Window management"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "7. The process manager commonly interacts with other components except\r",
+        "chs": [
+            "a. Device controller\r",
+            "b. Device manager\r",
+            "c. Memory manager\r",
+            "d. File manager"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "8. A trap instruction doesn't cause this CPU hardware step to occur:\r",
+        "chs": [
+            "a. Switch the CPU to supervisor mode\r",
+            "b. Consult the trap table\r",
+            "c. Load the PC with an address found in the trap table\r",
+            "d. Return control to the user code which invoked the trap instruction"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "10. On a magnetic disk, which is not a critical timing characteristic?\r",
+        "chs": [
+            "a. Rotational latency\r",
+            "b. Track seek time\r",
+            "c. Sector header erasure time\r",
+            "d. Data transfer latency"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "11. Which is not a characteristic of a thread?\r",
+        "chs": [
+            "a. Thread identifier\r",
+            "b. Thread parent identifier\r",
+            "c. Thread-specific data\r",
+            "d. Process environment"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "12. Basic process states include the following except\r",
+        "chs": [
+            "a. blocked\r",
+            "b. done\r",
+            "c. running\r",
+            "d. ready"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": "13. Which is the least common reason that a running thread might cease using the CPU?\r",
+        "chs": [
+            "a. Thread completes execution\r",
+            "b. Thread requests resource, and blocks\r",
+            "c. Thread voluntarily releases CPU\r",
+            "d. Thread involuntarily releases CPU"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "14. How many context switches occur whenever application processes are multiplexed?\r",
+        "chs": [
+            "a. 1 \r",
+            "b. 2\r",
+            "c. 4\r",
+            "d. 8"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "15. The OS implementation of a scheduler normally does not include\r",
+        "chs": [
+            "a. Context switcher code\r",
+            "b. Procedure call handler code\r",
+            "c. System call handler code\r",
+            "d. Interrupt handler code"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "16. In the synchronization context, process creation and destruction tend to be quite costly operations because of the following, except\r",
+        "chs": [
+            "a. Creation/destruction require considerable manipulation of process descriptors\r",
+            "b. Parent processes have difficulty tracking concurrent creation and destruction of child processes\r",
+            "c. Protection mechanism are extensively executed\r",
+            "d. Memory management is heavily invoked"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "17. Which statement about test-and-set is incorrect?\r",
+        "chs": [
+            "a. It is the dominant way to accomplish semaphores in modern hardware\r",
+            "b. Test-and-set involves both a memory location and a register\r",
+            "c. Test-and-set executes as a sequence of machine instructions\r",
+            "d. Test-and-set can make semaphore implementation simple and efficient"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "18. The following statements about AND synchronization are true except\r",
+        "chs": [
+            "a. Simultaneous semaphore is a programming convenience\r",
+            "b. Simultaneous semaphore is an abstraction of a basic semaphore\r",
+            "c. Simultaneous semaphore is slightly more powerful than basic semaphore\r",
+            "d. Simultaneous semaphore uses basic semaphore in a particular pattern"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "19. Which statement about monitors is incorrect?\r",
+        "chs": [
+            "a. Monitors can solve just a proper subset of synchronization problems solvable with semaphores\r",
+            "b. Monitors provide a simplified paradigm for some synchronization problems\r",
+            "c. Monitors can solve synchronization problems too complex for semaphores\r",
+            "d. Monitors are based on abstract data types"
+        ]
+    },
+    {
+        "ans": 3,
+        "ask": "20. Which statement about IPC is incorrect?\r",
+        "chs": [
+            "a. The OS explicitly copies information from a sending process's address space into a distinct receiving process's space\r",
+            "b. Sometimes, the OS can perform the copy by overriding the memory security mechanism\r",
+            "c. If the sender and receiver are on different machines, the OS must obtain additional cooperation of the two processes\r",
+            "d. IPC is rarely used between threads in a single process"
+        ]
+    },
+    {
+        "ans": 4,
+        "ask": ": An Operating System is?\ra) A program that acts as an intermediary between computer processor and computer memory\rb) A program that acts as an intermediary between a user of a computer and a user of another computer\rc) A program that acts as an intermediary between computer software and computer hardware\rd) A program that acts as an intermediary between a user of a computer and the computer hardware",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "What is the main difference function between Operating Systems for Mainframe computer and Personal computer?\r a) Multitask \rb) Many I/O devices\r c) Multi-user \rd) Multiprogramming",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which of the following is Operating System component?\r a) Time Management\r b) Space Management\r c) Speed Management \rd) File Management",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Which is the voluntary-condition which terminated process?\r a) Job error \rb) Killed by another process\r c) Error exit\r d) Killed by user",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "What is the correct approach with the Mutual Exclusion condition to prevent Deadlock?\r a) Spool everything \rb) Request all resources initially\r c) Take resources away\r d) Order resources numerically",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": ": What is the correct approach with the Hold and Wait condition to prevent Deadlock?\r a) Spool everything \rb) Request all resources initially\r c) Take resources away \rd) Order resources numerically",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which of the following actions generates an hardware interrupt?\ra) An input/output operation is completed.\rb) A page that does not exist in the main memory is accessed by the virtual storage management.\rc) A system call instruction is executed.\rd) Division by zero occurs.",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": ": Which command is used to change a file's name?\r a) name \rb) move\r c) chage -n\r d) mv",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Which command is used to jump on sub-directory?\r a) jump\r b) cd\r c) chage -n\r d) move",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Which command is used to display the absolute pathname for the directory that you are working in?\r a) dir \rb) whereami\r c) pwd \rd) ls",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Which command can be used to list all file (include hidden files) inside current directory?\r a) ls * \rb) ls -a\r c) ls -l \rd) show -a",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "Which command would you use to create a sub-directory in your home directory?\r a) mkdir\r b) dir\r c) cp \rd) rm",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": ": Which command will display current day?\r a) day \rb) date\r c) view date \rd) calendar",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "Which command can be used to display the contents of a file on the screen?\r a) ls\r b) grep\r c) dog\r d) cat",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "_____ is the command that writes the bottom 10 lines of a file to the screen.\r a) pr \rb) split\r c) tail \rd) head",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": ": _____ is the command that writes the first 10 lines of a file to the screen.\r a) pr \rb) split\r c) tail \rd) head",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": ": The _____ command will list all working processes?\r a) ls \rb) jobs\r c) ps \rd) pwd",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "A system has four processes and five allocated resources. The current allocation and maximum needs are as follows:\r Allocated Maximum Available\rProcess A 10211 11213 00x11\rProcess B 20110 22210 \rProcess C 11011 21311 \rProcess D 11010 11121 \rWhat is the smallest value of x for which this is a safe state?\ra) 0\r b) 1\r c) 2 \rd) 3",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "Five batch jobs A through E, arrive at a computer center at almost the same time. They have estimated running times of 8, 6, 2, 10, and 4 minutes. Their (externally determined) priorities are 3, 5, 2, 1, and 4, respectively, with 5 being the highest priority. For each of the following scheduling algorithms: P-Priority scheduling; F- First-come, first-Server (run in order 8, 6, 2, 10, 4); S-Shortest job first, determine the mean process turnaround time. Ignore process switching overhead. Assume that only one job at a time runs, until it finishes. All jobs are completely CPU bound.\ra) P-84, F-94, S-70\rb) P-16, F-18, S-14\rc) P-16.8, F-18.8, S-14",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "The Job Scheduler seeks to ____, when scheduling jobs.\r A) run all CPU intensive jobs first\r B) run all I/O intensive jobs first\r C) balance CPU and I/O intensive jobs\r D) run the quickest jobs first",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "____ uses the same underlying philosophy as shortest job next, where the shortest jobs are processed first and longer jobs are made to wait.\r A) LOOK\r B) FCFS\r C) SSTF\r D) SCAN",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "The following,____, describes the first memory allocation scheme.\r A) Each program to be processed was loaded into secondary storage, then swapped into memory in parts\r B) Each program to be processed was partially loaded into memory, then granted more memory as needed\r C) Each program to be processed was allocated a portion of memory and could negotiate with other programs to access more memory\r D) Each program to be processed was loaded in its entirety into memory and allocated as much contiguous space in memory as it needed",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "The ____ contains the value that must be added to each address referenced in the program so it will be able to access the correct memory addresses after relocation.\r A) busy list\r B) compaction monitor\r C) relocation register\r D) bounds register",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "The primary distinguishing characteristic of modern computers is ____.\r A) memory capacity\r B) processor capacity\r C) disk space\r D) physical size",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Second-generation computers were developed to meet the needs of ____.\r A) home users\r B) businesses\r C) secondary education\r D) online users",
+        "chs": []
+    },
+    {
+        "ans": 4,
+        "ask": "____ means that several logical records are grouped within one physical record.\r A) Grouping\r B) Fixing\r C) Combining\r D) Blocking",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "____ include(s) every peripheral unit in the system such as printers, disk drives, CD/DVD drives, flash memory, keyboards, and so on.\r A) The CPU\r B) I/O Devices\r C) Processors\r D) Secondary components",
+        "chs": []
+    },
+    {
+        "ans": 3,
+        "ask": "The overwhelming demand for ____ capability in the mid-1990s sparked the proliferation of networking capability.\r A) e-mail\r B) processing\r C) Internet\r D) FTP",
+        "chs": []
+    },
+    {
+        "ans": 1,
+        "ask": "The ____ is unique to each operating system.\r A) User Interface\r B) Process Manager\r C) Memory Manager\r D) File Manager",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "The ____ is used to indicate that a program is permanently held in ROM (read only memory), as opposed to being held in secondary storage.\r A) hardware\r B) firmware\r C) software\r D) shareware",
+        "chs": []
+    },
+    {
+        "ans": 2,
+        "ask": "Deadlock was a serious problem for early batch systems.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Within the Memory Manager the Segment Link Table lists details about each segment (one for each job).\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Multiple-level queues isn't really a separate scheduling algorithm but works in conjunction with several other schemes.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "In general, when a job is allocated to the CPU its Page Map Table is loaded into main memory while the Segment Map Tables are loaded only as needed.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The Processor Manager is a composite of two submanagers: one in charge of job scheduling and the other in charge of program scheduling.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The first-in first-out (FIFO) page replacement policy will remove the pages that have been in memory the shortest.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "In the dining philosophers problem there are five philosophers and four forks.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Starvation is the result of the liberal allocation of resources.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "From HOLD, the job moves to WAITING when it's ready to run but is waiting for the CPU.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "A deadlock is preceded by six simultaneous conditions that the operating system could have recognized.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "A job's working set is the set of pages residing in memory that can be accessed indirectly\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Once starvation has been detected, an algorithm can be implemented in which the system blocks new jobs until the starving jobs have been satisfied.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Every time an instruction is executed, or a data value is used, the operating system (or the hardware) must translate the job space address, which is relative, into its physical address, which is absolute.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "One sector will hold one page of job instructions and fit into one page frame of memory.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "When modeling deadlock, if there's a cycle in the graph, then there is a deadlock involving the processes and the resources in the cycle.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "A variation of the LRU page replacement algorithm is known as the clock page replacement policy because it is implemented with a circular queue and uses a pointer to step through the reference bits of the active pages, simulating a clockwise motion.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Each page of a job is actually stored in a page frame that can be located anywhere in available main memory.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Deadlock does not usually affect the entire system.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "When using a FIFO scheme, more memory will always result in better performance.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "According to the Banker's Algorithm an unsafe state always leads to deadlock.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "If locks are not used to preserve data integrity, the updated records in a database might include only some of the data—and their contents would depend on the order in which each process finishes its execution.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Demand paging requires that the Page Map Table for each job keep track of each page as it is loaded or removed from main memory.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "As a job moves through the system it is always in one of five states (or at least three); these are called the job status or the process status.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The advantage of RAID Level 3 is that if any one drive fails, data can be restored using the bits in the parity disk.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The job of the I/O control unit is to keep up with the I/O requests from the CPU and pass them down the line to the appropriate control unit.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "RAID-0 is ideal for data-critical real-time systems.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "An optical disc drive adjusts the speed of the disc's spin to compensate for the sector's location on the disc—this is called continuous linkage velocity (CLV).\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The SCAN algorithm moves the arm methodically from the inner to the outer track, servicing every request in its path.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Additional complex configurations of RAID can be created by combining multiple levels.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Two of the most important measures of optical disc drive performance are sustained data-transfer rate and longest access time.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Additional complex configurations of RAID can be created by combining multiple levels.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The SCAN algorithm moves the arm methodically from the inner to the outer track, servicing every request in its path.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "A DVD with a fast data transfer rate will drop fewer frames when playing back a recorded video segment than will a unit with a slower transfer rate.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The traffic controller maintains a database containing the status and connections for each unit in the I/O subsystem, grouped into Channel Control Blocks, Control Unit Control Blocks, and Device Control Blocks.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "When using DMA, the CPU is involved in transferring data to and from memory for the entire transfer.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Among the many differences between an optical disc and a magnetic disk is the design of the disc track and sectors.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "A fixed-head disk is lower in cost than a movable head disk.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Direct access storage devices (DASDs) are devices that can directly read or write to a specific place on a disk.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "For many computational purposes, serial processing is sufficient; it's easy to implement and fast enough for most users.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Threads share the same resources as the process that created them.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The classic problem of producers and consumers is one in which one process produces some data that another process consumes later.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Multiprocessing can refer to one job using several processors to execute sets of instructions in parallel.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The loosely coupled configuration features several complete computer systems, each with its own memory, I/O devices, CPU, and operating system.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The success of process synchronization hinges on the capability of the operating system to make a resource available to other processes while it is being used by one of them.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The common element in all synchronization schemes is to allow a process to finish work on a critical region of the program before other processes have access to it.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The symmetric configuration is best implemented if the processors are all of the same type.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The only reason for multiprocessing is to increase computer power.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The best-fit free list scheme uses memory more efficiently than the first-fit free scheme but it is slower to implement.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "In the relocatable dynamic partitions scheme, the Memory Manager relocates programs to gather together all of the empty blocks and compact them to make one block of memory large enough to accommodate some or all of the jobs waiting to get in.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "To overlay is to transfer segments of a program from main memory into secondary storage for execution, so that two or more segments take turns occupying the same memory locations.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "During compaction, the operating system must distinguish between addresses and data values, and the distinctions are not obvious once the program has been loaded into memory\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "After relocation and compaction, both the free list and the busy list are updated.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Research continues to focus on finding the optimum allocation scheme.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The first attempt to allow for multiprogramming used fixed partitions.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "One of the problems with the best-fit algorithm is that the entire table must be searched before the allocation can be made because the memory blocks are physically stored in sequence according to their location in memory.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Onboard systems are computers placed inside other products to add features and capabilities.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The supercomputer was developed primarily for government applications needing massive and fast number-crunching ability to carry out military operations and weather forecasting.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "In the 1950s, only one FORTRAN program could run at a time, and then the FORTRAN compiler had to be reloaded into memory.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The File Manager is responsible for data files but not program files.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Real-time systems are used in time-critical environments where reliability is key and data must be processed within a strict time limit.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Few major advances were made in data management during the 1960s.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Since the mid-1970s rapid advances in computer technology have blurred the distinguishing characteristics of early machines.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "Card systems date from the earliest computers, which relied on punched cards or tape for input when a job was entered by assembling the cards into a deck and running the entire deck of cards through a card reader as a group.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "The first bug was a moth trapped in a Harvard computer.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The minicomputer of the 1970s was smaller than the microcomputer.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "Many early programs used convoluted logic that only the original programmer could understand, so it was nearly impossible for anyone else to debug or change the program later on.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 2,
+        "ask": "The high-level portion of the Process Manager is called the Process Scheduler.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    },
+    {
+        "ans": 1,
+        "ask": "A process requires space in main memory where it resides during its execution although, from time to time, it requires other resources such as data files or I/O devices.\r",
+        "chs": [
+            "A) True\r",
+            "B) False"
+        ]
+    }
+]

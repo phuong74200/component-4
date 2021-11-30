@@ -1,0 +1,93 @@
+.header {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    top: 0;
+    background: white;
+}
+
+.paging {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header-btn {
+    font-family: montserrat;
+    color: #716F81;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    user-select: none;
+}
+
+.header-btn::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    bottom: -5px;
+    width: 0px;
+    animation-name: header-btn-dash-reserve;
+    animation-duration: .4s;
+    background-color: #716F81;
+}
+
+.header-btn:hover::after {
+    animation: header-btn-dash .7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header-btn-dash {
+    1% {
+        left: 0;
+        width: 0%;
+    }
+    99% {
+        left: 0;
+    }
+    100% {
+        right: 0;
+        width: 100%;
+    }
+}
+
+@keyframes header-btn-dash-reserve {
+    0% {
+        right: 0;
+        width: 100%;
+    }
+    100% {
+        right: 0;
+        width: 0px;
+    }
+}
+
+.on-page::after {
+    animation-name: header-btn-dash;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.start-btn {
+    padding: 8px;
+    background-color: #C490E4;
+    font-family: montserrat;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: auto;
+    border-radius: 4px;
+}

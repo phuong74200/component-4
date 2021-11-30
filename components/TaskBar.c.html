@@ -1,0 +1,60 @@
+<pack>
+    <component *name="TaskBar" (render)="TestHandleR" (update)="TestHandleU" id="TaskBar">
+        <prop *name="pra1" *type="Number">Fuong</prop>
+        <prop *name="pra2" *type="Number">Fuong</prop>
+        <prop *name="pra3" *type="Number">Fuong</prop>
+        <prop *name="moux" *type="Number">0</prop>
+        <prop *name="mouy" *type="Number">0</prop>
+        <render>
+            <div style="top: {{mouy}}px; left: {{moux}}px; position: absolute; pointer-events: none">
+                <App name="Test" icon="assets/drop.svg">
+                    <h1>App?1</h1>
+                </App>
+                <h1>{{pra3}}</h1>
+                <img *src="./assets/edge.svg" />
+                <root></root>
+                Test binder --- {{pra3}} ---
+                <h1 class="{{pra1}}">Test binder --- {{pra3 / 2}} ---</h1>
+                <h1>{{pra2}}</h1>
+                <h1 xxxx="top: {{pra1 / 10}}px" id="asd">Hello: {{(pra3 + pra1) % 3 == 0 ? `${pra3 + pra1} mod 3` : `${pra3 + pra1} not mod 3`}}</h1>
+                <div class="task-bar"></div>
+                <div class="title-container">
+                    <div class="title-container">
+                        <div class="title-container"></div>
+                    </div>
+                </div>
+                <div class="title-container">
+                    <div class="1"></div>
+                    <div class="2"></div>
+                    <div class="3">
+                        <div class="3-1"></div>
+                        <Desktop class="test">
+                            <Tab></Tab>
+                        </Desktop>
+                    </div>
+                </div>
+            </div>
+        </render>
+    </component>
+
+    <script>
+        new this.Handle("TestHandleR", e => {
+            setInterval(evt => {
+                e.Listen.props.pra3 += 1;
+            }, 500)
+            window.addEventListener("mousemove", evt => {
+                e.Listen.props.moux = evt.clientX;
+                e.Listen.props.mouy = evt.clientY;
+            })
+        })
+        new this.Handle("TestHandleU", e => {
+            // log(`pra3 has been updated`)
+        })
+        new this.Handle("AppR", e => {
+            e.Listen.props.icon = "assets/puzzle.svg"
+        })
+        new this.Handle("Log", e => {
+            e.Listen.props.icon = "assets/puzzle.svg"
+        })
+    </script>
+</pack>

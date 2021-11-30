@@ -1,0 +1,90 @@
+<package>
+    <component *name="List" (render)="Fuong_Package_List"> <!--(render)="Fuong_Package_List"-->
+        <prop *name="data"></prop>
+        <prop *name="head" *type="Boolean">true</prop>
+        {{
+            this.style = {
+                backgroundColor: green;
+            }
+        }}
+        <render>
+            <div class="List" xyz="{{return `hello world`}}" style="{{this.style}}">
+                {{
+                    const props = this.Listen.props;
+                    const clone = this.Render.clone;
+                    const obj = JSON.parse(props.data);
+                    
+                    if(clone.querySelector("table")) clone.querySelector("table").remove();
+                    
+                    const table = document.createElement("table");
+                    let header = document.createElement("tr");
+                    let keyCollect = d => {
+                        let keys = [];
+                        for(let x of d) {
+                            for(let k in x) {
+                                if(!keys.includes(k)) {
+                                    keys.push(k)
+                                    let td = document.createElement("td");
+                                    td.textContent = k;
+                                    header.appendChild(td);
+                                }
+                            }
+                        }
+                        return keys;
+                    }
+                    let keys = keyCollect(obj);
+                    let r = 0;
+                    let c = 0;
+                    map = Array.from(Array(obj.length), () => new Array(keys.length));
+                    if(props.head) table.appendChild(header);
+                    // console.log(props.head)
+                    for(let o of obj) {
+                        let tr = document.createElement("tr");
+                        for(let k of keys) {
+                            let td = document.createElement("td");
+                            if(o[k]) {
+                                td.textContent = o[k];
+                            } else {
+                                td.textContent = o[k];
+                            }
+                            tr.appendChild(td);
+                            map[r][c++] = td;
+                        }
+                        table.appendChild(tr);
+                        r++;
+                        c = 0;
+                    }
+                    clone.appendChild(table);
+                    return "";
+                }}
+            <span><Logo size="40px"></Logo></span>
+            </div>
+        </render>
+    </component>
+    <script>
+        // access the map by using document.getElementById(<list>).map
+        new this.Handle("Fuong_Package_List", e => {
+            setInterval(x => {
+                // e.Listen.props.data = "[]";
+            }, 500)
+        })
+        
+    </script>
+    <style>
+        .List table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .List td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        .List tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</package>

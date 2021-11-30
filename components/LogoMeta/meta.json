@@ -1,0 +1,8 @@
+{
+    "name": "logo",
+    "path": {
+        "html": "logo.xml",
+        "css": "logo.css",
+        "js": "logo.js"
+    }
+}

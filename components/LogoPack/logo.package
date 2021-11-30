@@ -1,0 +1,136 @@
+<pack>
+    <style>
+        .logo-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            border-radius: 2px;
+            box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+            overflow: hidden;
+            gap: 1px;
+            transform: scale(0);
+            animation: appear .4s linear;
+            animation-fill-mode: forwards;
+        }
+    
+        @keyframes appear {
+            0% {
+                transform: scale(0);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    
+        .logo-grid div {
+            opacity: .9;
+            transition: all .3s;
+        }
+    
+        .logo-grid div:hover {
+            opacity: 1;
+        }
+    
+        .logo-grid div:nth-child(1) {
+            background: transparent;
+        }
+    
+        .logo-grid div:nth-child(2) {
+            background: #6CA572;
+        }
+    
+        .logo-grid div:nth-child(3) {
+            background: transparent;
+        }
+    
+        .logo-grid div:nth-child(4) {
+            background: #96B74E;
+        }
+    
+        .logo-grid div:nth-child(5) {
+            background: #92A367;
+        }
+    
+        .logo-grid div:nth-child(6) {
+            background: transparent;
+        }
+    
+        .logo-grid div:nth-child(7) {
+            background: #C1BA45;
+        }
+    
+        .logo-grid div:nth-child(8) {
+            background: #BDA359;
+        }
+    
+        .logo-grid div:nth-child(9) {
+            background: #B88970;
+        }
+    
+        .logo-grid div:nth-child(10) {
+            background: #B88970;
+        }
+    
+        .logo-grid div:nth-child(11) {
+            background: #B88970;
+        }
+    
+        .logo-grid div:nth-child(12) {
+            background: #B88970;
+        }
+    
+        .logo-grid div:nth-child(13) {
+            background: #B88970;
+        }
+    
+        .logo-grid div:nth-child(14) {
+            background: #B88970;
+        }
+    
+        .logo-grid div:nth-child(15) {
+            background: #B88970;
+        }
+    
+        .logo-grid div:nth-child(16) {
+            background: #B88970;
+        }
+    </style>
+    <script>
+        // console.log(this);
+    
+        new this.Handle("Log", e => {
+            // console.log("success loaded Log Handle");
+            // console.log(e);
+            e.Shared.darkMode = false;
+        })
+    </script>
+    <component *name="Logo" (render)="{{console.log("abc)}}">
+        <prop *name="size"></prop>
+        <render>
+            <div class="logo logo-grid" style="width: 
+            {{
+                return size
+            }}; height: {{return size}}" onclick="">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </render>
+    </component>
+</pack>
