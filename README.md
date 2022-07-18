@@ -23,6 +23,8 @@ Included these files into your html file:
 
 ## Usage:
 
+You just need only file (anvil.js)[https://github.com/phuong74200/component-4/tree/master/js] to use this library.
+
 Folder structure
 
 ```
