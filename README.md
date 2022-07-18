@@ -5,6 +5,8 @@ In this project I'm trying to make my own web librart that using component alike
 -   I don't like jsx like syntax
 -   It help me understand the way how other libraries like angular or react works
 
+[Demo](https://phuong74200.github.io/component-4/)
+
 ## Built With:
 
 -   HTML/CSS
