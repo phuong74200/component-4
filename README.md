@@ -86,7 +86,7 @@ The final step is load the package file into your code. Put the code below into 
 
 ```js
 function ComponentInit() {
-    this.load.fromPack("./helloUser.package", true);
+    this.load.fromPack("../helloUser.package", true);
 }
 
 function HandleInit() {}
@@ -99,7 +99,8 @@ const anvil = new Anvil({
 });
 ```
 
-After these steps, you can now call the component inside your html file directly:
+After these steps, you can now call the component inside your html file directly. Like this:
+
 inedx.html
 
 ```html
