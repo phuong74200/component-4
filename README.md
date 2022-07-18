@@ -24,12 +24,13 @@ Included these files into your html file:
 Folder structure
 
 ```
-.root
-  ├ js
-  │ ├ anvil4.js
-  │ └ script.js
-  ├ helloUser.package
-  └ index.html
+.
+└── project/
+    ├── js/
+    │   ├─ anvil4.js
+    │   └─ script.js
+    ├─ helloUser.package
+    └─ index.html
 ```
 
 Create a helloUser.package file:
