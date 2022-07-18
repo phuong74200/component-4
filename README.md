@@ -114,3 +114,5 @@ inedx.html
     </body>
 </html>
 ```
+
+Every time the props chang. There will be a differ to check which node ```Element``` is changed and then update the needed nodes only.
