@@ -14,11 +14,9 @@
 <h1>Getting started</h1>
 <p>
     Included these file into your html file:
-    <pre>
-        <code>
-            <script src="js/anvil4.js"></script>
-            <script src="js/anvil4.kit.js"></script>
-            <script src="js/script.js"></script>
-        </code>
-    </pre>
+    <pre><code>
+<script src="js/anvil4.js"></script>
+<script src="js/anvil4.kit.js"></script>
+<script src="js/script.js"></script>
+    </code></pre>
 </p>
